@@ -1,0 +1,44 @@
+:root{
+    --gold-0 : #f89825;
+    --gold-1 : #fbb040;
+    --red : #e94235;
+    --blue-1 : #2899d5;
+    --blue-0 : #0065a2;
+
+}
+
+.intro-section {
+    height: 350px;
+    /* width: 100%; */
+    background: var(--blue-1);
+}
+.intro-section-bottom {
+    height: 0;
+    width: 0;
+    margin-top: -5px;
+    border-top: 80px solid var(--blue-1);;
+    border-right: 100vw solid transparent;
+}
+.intro-title-name {
+    /* color: var(--gold-0); */
+    /* position: absolute; */
+    width: 500px;
+    /* height: 200px; */
+    background: rgba(255, 255, 255, 0.5);
+    left: 10vw;
+    top: 20vh;
+    z-index: 1;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.intro-title-name h4 {
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.intro-img {
+    margin: auto;
+    width: 90%;
+    margin-top: auto;
+}
