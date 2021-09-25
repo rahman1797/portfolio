@@ -1,9 +1,11 @@
 import React, {useState, useEffect} from 'react'
+import { Link } from 'react-router-dom'
 import './IntroSection.css'
+import './Button.css'
 
 function IntroSection() {
 
-    const text_role = ['Fullstack Dev', 'Backend Dev', 'Frontend Dev'];
+    const text_role = [ 'Frontend Dev', 'Fullstack Dev', 'Backend Dev'];
     const [role, setRole] = useState(text_role[0]);
 
     useEffect(() => {
@@ -11,7 +13,7 @@ function IntroSection() {
         const interval = setInterval(() => {
             iteration += 1;
             setRole(text_role[iteration % text_role.length])
-        }, 2000);
+        }, 1700);
         return () => clearInterval(interval);
       }, []);
 
@@ -22,9 +24,12 @@ function IntroSection() {
                     <h3>Hello_____</h3>
                     <h3>I AM MAULANA RAHMAN NUR</h3>
                     <h4>{ role }</h4>
+                    <Link to="/portfolio/my-journey">
+                        <button className="btn btn-secondary btn-warning mt-2">Lets see my journey <i class="fas fa-location-arrow"></i></button>
+                    </Link>
                 </div>
-                <div className="col-md-6 row">
-                    <img className="intro-img" src="/assets/icons/undraw_hello.svg"></img>
+                <div className="col-md-6 row m-auto">
+                    <img className="intro-img" src="/portfolio/assets/icons/undraw_hello.svg"></img>
                 </div>
             </div>
             <div className="intro-section-bottom">

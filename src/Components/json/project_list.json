@@ -1,0 +1,44 @@
+[
+    {
+        "id":1,
+        "name":"Online legalization information system",
+        "desc":"Create and develop lecture research about website-based legalization application to make it easier for alumni who are far from campus locations",
+        "year":2017
+    },
+    {
+        "id":2,
+        "name":"Visit and activity administration system",
+        "desc":"Create and develop website-based visit administration application for Pusat Kajian Hadits institution",
+        "year":2018
+    },
+    {
+        "id":3,
+        "name":"Spot On",
+        "desc":"A platform for finding and renting places",
+        "year":2018
+    },
+    {
+        "id":4,
+        "name":"Bookita",
+        "desc":"A platform for reading fiction and finding books you want to find",
+        "year":2019
+    },
+    {
+        "id":5,
+        "name":"Teknonomi Media",
+        "explain":"Design and develop website-based news portal",
+        "year":2019
+    },
+    {
+        "id":6,
+        "name":"Recruitment Selection Information System",
+        "explain":"Design and develop website-based news portal",
+        "year":2021
+    },
+    {
+        "id":7,
+        "name":"Teknonomi Media",
+        "explain":"Design and develop website-based news portal",
+        "year":2021
+    }
+]

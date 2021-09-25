@@ -1,0 +1,22 @@
+.education-img {
+    margin: auto;
+    width: 90%;
+    margin-top: auto;
+}
+
+.edu-img {
+    width: 120px;
+    margin: auto;
+}
+
+.card-edu {
+    background-color: white;
+    border-radius: 20px;
+    width: 80%;
+    margin: auto;
+}
+
+.education-intro {
+    height: auto;
+    background: var(--blue-1);
+}

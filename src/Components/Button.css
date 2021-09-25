@@ -1,11 +1,6 @@
-:root {
-    --primary: white;
-    --dark-grey: rgb(43, 43, 43);
-}
-
 .btn {
     padding: 9px 20px;
-    border-radius: 0.3em;
+    border-radius: 1em !important;
     border: none;
     outline: none;
     cursor: pointer;
