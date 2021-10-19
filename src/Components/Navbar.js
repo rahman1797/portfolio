@@ -10,21 +10,6 @@ function Navbar() {
     const handleClick = () => setClick(!click);
     const handleCloseMobile = () => setClick(false);
 
-    // const showButton = () => {
-    //     if(window.innerWidth <= 950) {
-    //         setButton(false)
-    //     }
-    //     else{
-    //         setButton(true)
-    //     }
-    // };
-
-    // useEffect(() => {
-    //     showButton();
-    //   }, []);
-
-    // window.addEventListener('resize', showButton);
-
     return (
         <>
         <nav className="navbar">
@@ -35,17 +20,17 @@ function Navbar() {
                 <ul className={ click ? 'nav-menu active' : 'nav-menu' }>
                     <li className="nav-item">
                         <Link to="/portfolio" className="nav-links" onClick={ handleCloseMobile } >
-                            About
+                            Home
                         </Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="/skills" className="nav-links" onClick={ handleCloseMobile } >
-                            Skills
+                        <Link to="/eksperience" className="nav-links" onClick={ handleCloseMobile } >
+                            Experience
                         </Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="/project" className="nav-links" onClick={ handleCloseMobile } >
-                            My Project
+                        <Link to="/biodata" className="nav-links" onClick={ handleCloseMobile } >
+                            My Biodata
                         </Link>
                     </li>
                     <li className="nav-item">

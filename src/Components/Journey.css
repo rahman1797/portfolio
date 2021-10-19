@@ -1,0 +1,19 @@
+:root{
+    --primary: white;
+    --dark-grey: rgb(43, 43, 43);
+    --gold-0 : #f89825;
+    --gold-1 : #fbb040;
+    --red : #e94235;
+    --blue-1 : #2899d5;
+    --blue-0 : #0065a2;
+    --blue-2 : #232745;
+  }
+.card-journey {
+    background: rgba(255, 255, 255, 0.25);
+    height: 100px;
+    overflow-wrap: normal;
+    border: 1px solid rgba(255, 200, 200, 0.5);
+    padding: 10px;
+    width: 180px;
+    border-radius: 20px;
+}

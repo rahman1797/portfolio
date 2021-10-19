@@ -1,11 +1,12 @@
 import React from 'react'
 import './AboutMe.css'
+import HeaderH1 from './pieces/HeaderH1'
 
 function AboutMe() {
     return (
         <>
-            <div className="container my-5">
-                <h1 className="text-center text-gold header">ABOUT ME</h1>
+            <div className="container my-5 px-3">
+                <HeaderH1 title="ABOUT ME" />
                 <p>Im bachelor of <strong>Computer Science from State University of Jakarta</strong>. 
                 I like challenges and new knowledge related to anything, especially about information systems.</p>
                 <p>I like an environment where we can share knowledge and experiences, help each other, so that it can help to reach our maximum ability</p>

@@ -1,0 +1,31 @@
+.social-frame {
+    display: flex;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.email-header{
+    background: red;
+    padding: 1rem;
+    display: inline;
+    width: 200px;
+    text-align: center;
+    font-size: 24px;
+    margin: auto;
+    margin-top: -100px;
+}
+
+.card-icon {
+    background-color: white;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+}
+
+.header-overflow {
+    margin-top: 100px !important;
+}

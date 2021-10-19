@@ -1,66 +1,110 @@
 import React from 'react'
 // import Card from './Card'
 import './Card.css'
+import './Journey.css'
 import Card from './Card'
 
 function Journey() {
     return (
-        <div className="container  text-center text-light">
+        <div className="container text-center text-light" id="journey">
             <i className="fas fa-code"></i>
-            <h1 className="text-gold header">My Journey</h1>
-            <h6>For several years from 2015 (start collage) to Now</h6>
-            Experience using 
-            <div>
-            <i className="icon-fa fab fa-php" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom"></i>
-            <i className="icon-fa fab fa-js-square"></i>
-            <i className="icon-fa fab fa-html5"></i>
-            <i className="icon-fa">C#</i>
-            <i className="icon-fa fab fa-css3-alt"></i>
-            <i className="icon-fa fab fa-react"></i>
+            <h1 className="text-gold">My Journey</h1>
+            <h5 className="text-blue">There is an activity that i've do since 2015 (start collage) to now</h5>
+            <div className="text-muted mb-3">Technology I've used</div>
+            <div className="scroll-x alert bg-light rounded-3 ">
+                <i className="icon-fa devicon-php-plain colored" data-toggle="tooltip" data-placement="bottom" title="PHP - More than 5 years"></i>
+                <i className="icon-fa devicon-css3-plain colored" data-toggle="tooltip" data-placement="bottom" title="CSS - More than 5 years"></i>            
+                <i className="icon-fa devicon-html5-plain colored" data-toggle="tooltip" data-placement="bottom" title="HTML - More than 5 years"></i>
+                <i className="icon-fa devicon-mysql-plain colored" data-toggle="tooltip" data-placement="bottom" title="MySql - More than 5 years"></i>
+                <i className="icon-fa devicon-codeigniter-plain colored" data-toggle="tooltip" data-placement="bottom" title=" CodeIgniter - More than 5 years"></i>
+                <i className="icon-fa devicon-bootstrap-plain colored" data-toggle="tooltip" data-placement="bottom" title="Bootstrap - More than 4 years"></i>
+                <i className="icon-fa devicon-javascript-plain colored" data-toggle="tooltip" data-placement="bottom" title="Javascript - More than 3 years"></i>
+                <i className="icon-fa devicon-jquery-plain colored" data-toggle="tooltip" data-placement="bottom" title="jQuery - More than 3 years"></i>
+                <i className="icon-fa devicon-git-plain colored" data-toggle="tooltip" data-placement="bottom" title="Git - More than 2 years"></i>
+                <i className="icon-fa devicon-csharp-plain colored" data-toggle="tooltip" data-placement="bottom" title="C# - More than 1 years"></i>
+                <i className="icon-fa devicon-microsoftsqlserver-plain colored" data-toggle="tooltip" data-placement="bottom" title="SQL Server - More than 1 years"></i>
+                <i className="icon-fa devicon-dotnetcore-plain colored" data-toggle="tooltip" data-placement="bottom" title=".NET Core - More than 1 years"></i>
+                <i className="icon-fa devicon-laravel-plain colored" data-toggle="tooltip" data-placement="bottom" title="Laravel - More than 1 years"></i>
+                <i className="icon-fa devicon-java-plain colored" data-toggle="tooltip" data-placement="bottom" title="Java - About 4 months"></i>
+                <i className="icon-fa devicon-react-original colored" data-toggle="tooltip" data-placement="bottom" title="ReactJS - About 3 months"></i>
             </div>
             
-            <div className="row">
-                <div className="col-md-3 col-6 my-5">
-                    3
-                    <br />
-                    Management System
+            <div className="row my-5">
+                <div className="col-md-3 col-6 row mx-auto mb-3">
+                    <div className="mx-auto card-journey row">
+                        <div className="col-12">
+                            <h3>3</h3>
+                        </div>
+                        <div className="col-12">
+                            <h6>Management System</h6>
+                        </div>
+                    </div>
                 </div>
-                <div className="col-md-3 col-6  my-5">
-                    3
-                    <br />
-                    Company Profile
+                <div className="col-md-3 col-6 row mx-auto mb-3">
+                    <div className="mx-auto card-journey row">
+                        <div className="col-12">
+                            <h3>3</h3>
+                        </div>
+                        <div className="col-12">
+                            <h6>Company Profile</h6>
+                        </div>
+                    </div>
                 </div>
-                <div className="col-md-3 col-6  my-5">
-                    3
-                    <br />
-                    Reading Platform
+                <div className="col-md-3 col-6 row mx-auto mb-3">
+                    <div className="mx-auto card-journey row">
+                        <div className="col-12">
+                            <h3>1</h3>
+                        </div>
+                        <div className="col-12">
+                            <h6>News</h6>
+                        </div>
+                    </div>
                 </div>
-                <div className="col-md-3 col-6  my-5">
-                    3
-                    <br />
-                    Management System
+                <div className="col-md-3 col-6 row mx-auto mb-3">
+                    <div className="mx-auto card-journey row">
+                        <div className="col-12">
+                            <h3><i className="fas fa-infinity"></i></h3>
+                        </div>
+                        <div className="col-12">
+                            <h6>Others</h6>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div className="row">
                 <div className="col-lg-4 col-md-6 col-12">
                     <Card
-                        src="portfolio/assets/images/img-9.jpg"
-                        text="Management System"
+                        src="/portfolio/assets/images/Management/SIM-1.jpg"
+                        text="A system that can be used to manage resources"
                         label="Management System"
                         path="/service"
                     />
                 </div>
                 <div className="col-lg-4 col-md-6 col-12">
                     <Card
-                        src="portfolio/assets/images/img-9.jpg"
-                        text="this is text this is text this is text"
-                        label="Adventure"
+                        src="/portfolio/assets/images/CompanyProfile/Eska-1.jpg"
+                        text="Website that contains information about the company / organization"
+                        label="Company Profile"
                         path="/service"
                     />
                 </div>
-
+                <div className="col-lg-4 col-md-6 col-12">
+                    <Card
+                        src="/portfolio/assets/images/Reading/Bookita-1.jpg"
+                        text="A platform for sharing fiction stories"
+                        label="Reading Platform"
+                        path="/service"
+                    />
+                </div>
+                <div className="col-lg-4 col-md-6 col-12">
+                    <Card
+                        src="/portfolio/assets/images/News/Teknonomi-1.jpg"
+                        text="A platform for sharing news information"
+                        label="News"
+                        path="/service"
+                    />
+                </div>
             </div>
-            
         </div>
     )
 }

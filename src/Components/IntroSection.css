@@ -11,6 +11,10 @@
     border-right: 100vw solid transparent;
 }
 
+.row h4{
+    width: auto;
+}
+
 .btn:hover > .fas.fa-location-arrow {
     /* transition: all 0.3s linear; */
     /* transform: rotate(40deg);

@@ -5,15 +5,23 @@
   --gold-1 : #fbb040;
   --red : #e94235;
   --blue-1 : #2899d5;
+  --blue-3 : #62bdee;
   --blue-0 : #0065a2;
   --blue-2 : #232745;
 }
 .text-gold {
   color: var(--gold-1);
 }
+.text-blue {
+  color: var(--blue-3);
+}
 .App {
   overflow-x: clip;
-  background-color: var(--blue-2);
+  background: rgb(35,39,69);
+  background: -moz-linear-gradient(90deg, rgba(35,39,69,1) 0%, rgba(38,43,80,1) 52%, rgba(26,79,127,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(35,39,69,1) 0%, rgba(38,43,80,1) 52%, rgba(26,79,127,1) 100%);
+  background: linear-gradient(90deg, rgba(35,39,69,1) 0%, rgba(38,43,80,1) 52%, rgba(26,79,127,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#232745",endColorstr="#1a4f7f",GradientType=1);
 }
 
 i.fas.fa-code {
@@ -24,8 +32,18 @@ i.fas.fa-code {
   font-size: 40px;
   margin: 7px;
 }
-.fab.fa-php:hover{
-  color: orange;
+.icon-fa:hover {
+  cursor: help;
+}
+
+.scroll-x {
+  overflow: auto;
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+}
+
+.scroll-x::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
 }
 
 p {

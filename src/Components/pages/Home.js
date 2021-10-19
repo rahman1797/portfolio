@@ -1,9 +1,8 @@
 import React from 'react'
 import IntroSection from '../IntroSection'
 import AboutMe from '../AboutMe'
-import Education from '../Education'
-import InDevelopment from '../InDevelopment'
 import Journey from '../Journey'
+import Contact from '../Contact'
 
 function Home() {
     return (
@@ -11,8 +10,7 @@ function Home() {
             <IntroSection title="I'm Maulana Rahman Nur" />
             <AboutMe title="About Me" />
             <Journey />
-            <Education title="Education" />
-            <InDevelopment />
+            <Contact />
         </>
     )
 }
