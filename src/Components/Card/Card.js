@@ -5,7 +5,8 @@ function Card(props) {
     return (
         <>
             <li className="card-item mb-3">
-                <Link className="card-item-link" to={ props.path }>
+                {/* <Link className="card-item-link" to={ props.path }> */}
+                <div className="card-item-link">
                     <figure className="card-item-pic" data-label={ props.label }>
                         <img src={ props.src } className="card-item-img" alt={ props.text }></img>
                     </figure>
@@ -14,7 +15,8 @@ function Card(props) {
                             { props.text }
                         </h5>
                     </div>
-                </Link>
+                </div>
+                {/* </Link> */}
             </li>
         </>
     )

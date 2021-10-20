@@ -1,8 +1,9 @@
 import React from 'react'
 // import Card from './Card'
-import './Card.css'
+import '../Card/Card.css'
 import './Journey.css'
-import Card from './Card'
+import Card from '../Card/Card'
+import { Link } from 'react-router-dom'
 
 function Journey() {
     return (
@@ -105,6 +106,9 @@ function Journey() {
                     />
                 </div>
             </div>
+            <Link to="/portfolio/all-project">
+                <button className="btn btn-primary">See all project</button>
+            </Link>
         </div>
     )
 }

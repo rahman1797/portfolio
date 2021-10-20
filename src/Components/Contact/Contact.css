@@ -1,0 +1,66 @@
+.social-frame {
+    display: flex;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.email-header{
+    background: white;
+    color: rgb(49, 49, 49);
+    padding: 1rem;
+    display: inline;
+    width: 200px;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: -100px;
+}
+
+.card-icon {
+    background-color: white;
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    margin: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+}
+
+.linkedin {
+    background-color: #0e76a8;
+    color: white;
+}
+.github {
+    background-color: white;
+    color: black;
+}
+.whatsapp {
+    color: white;
+    background-color: #128c73;
+}
+.contact-default {
+    color: white;
+    background-color: var(--blue-3);
+}
+
+.header-overflow {
+    margin-top: 100px !important;
+}
+
+.card-contact {
+    background-color: rgba(255, 255, 255, 0.12);
+    border-radius: 20px;
+    width: 70%;
+    color: white;
+    padding-top: 80px;
+    margin-bottom: 100px;
+}
+
+/* .card-contact small {
+    color: rgb(83, 83, 83);
+} */

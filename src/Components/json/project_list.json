@@ -1,44 +1,79 @@
 [
     {
-        "id":1,
-        "name":"Online legalization information system",
-        "desc":"Create and develop lecture research about website-based legalization application to make it easier for alumni who are far from campus locations",
-        "year":2017
+        "slug_url": "online-legalization-information-system",
+        "name": "Online legalization information system",
+        "desc": "Create and develop lecture research about website-based legalization application to make it easier for alumni who are far from campus locations",
+        "path": "/portfolio/assets/images/Administration/Sileg-1.jpg",
+        "year": 2017
     },
     {
-        "id":2,
-        "name":"Visit and activity administration system",
-        "desc":"Create and develop website-based visit administration application for Pusat Kajian Hadits institution",
-        "year":2018
+        "slug_url": "jamaah",
+        "name": "Jama'ah",
+        "desc": "Create and develop website-based visit administration application for Pusat Kajian Hadits institution",
+        "path": "/portfolio/assets/images/Administration/jamaah-1.jpg",
+        "year": 2018
     },
     {
-        "id":3,
-        "name":"Spot On",
-        "desc":"A platform for finding and renting places",
-        "year":2018
+        "slug_url": "spot-on",
+        "name": "Spot On",
+        "desc": "A platform for finding and renting places",
+        "path": "/portfolio/assets/images/Other/spoton-1.jpg",
+        "year": 2018
     },
     {
-        "id":4,
-        "name":"Bookita",
-        "desc":"A platform for reading fiction and finding books you want to find",
-        "year":2019
+        "slug_url": "bookita",
+        "name": "Bookita",
+        "desc": "A platform for reading fiction and finding books you want to find",
+        "path": "/portfolio/assets/images/Reading/Bookita-1.jpg",
+        "year": 2019
     },
     {
-        "id":5,
-        "name":"Teknonomi Media",
-        "explain":"Design and develop website-based news portal",
-        "year":2019
+        "slug_url": "teknonomi",
+        "name": "Teknonomi Media",
+        "desc": "Design and develop website-based news portal",
+        "path": "/portfolio/assets/images/News/Teknonomi-1.jpg",
+        "year": 2019
     },
     {
-        "id":6,
-        "name":"Recruitment Selection Information System",
-        "explain":"Design and develop website-based news portal",
-        "year":2021
+        "slug_url": "opmawa-management-information-system",
+        "name": "Opmawa Management Information System",
+        "desc": "Design and develop website-based news portal",
+        "path": "/portfolio/assets/images/Management/Sim-1.jpg",
+        "year": 2019
     },
     {
-        "id":7,
-        "name":"Teknonomi Media",
-        "explain":"Design and develop website-based news portal",
-        "year":2021
+        "slug_url": "eska",
+        "name": "Eska Unggul Indonesia",
+        "desc": "Design and develop website-based news portal",
+        "path": "/portfolio/assets/images/CompanyProfile/Eska-1.jpg",
+        "year": 2021 
+    },
+    {
+        "slug_url": "rsis",
+        "name": "Recruitment Selection Information System (RSIS)",
+        "desc": "Design and develop website-based news portal",
+        "path": "/portfolio/assets/images/Management/Rsis-1.jpg",
+        "year": 2021
+    },
+    {
+        "slug_url": "capa",
+        "name": "CAPA",
+        "desc": "Design and develop website-based news portal",
+        "path": null,
+        "year": 2021
+    },
+    {
+        "slug_url":"chaka",
+        "name": "CHAKA",
+        "desc": "Design and develop website-based news portal",
+        "path": "/portfolio/assets/images/Management/Chaka-1.jpg",
+        "year": 2021
+    },
+    {
+        "slug_url": "maintenance-hp",
+        "name": "Maintenance H&P",
+        "desc": "Design and develop website-based news portal",
+        "path": "/portfolio/assets/images/Administration/hp-1.jpg",
+        "year": 2021
     }
 ]
