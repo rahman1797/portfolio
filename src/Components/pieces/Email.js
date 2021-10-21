@@ -1,6 +1,8 @@
 import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
 import emailkey from '../../helper/emailkey';
+import Swal from 'sweetalert2'
+import withReactContent from 'sweetalert2-react-content'
 
 export const Email = () => {
   const form = useRef();
@@ -10,11 +12,31 @@ export const Email = () => {
 
     emailjs.sendForm(emailkey.SERVICE_ID, emailkey.TEMPLATE_ID, form.current, emailkey.USER_ID)
       .then((result) => {
+
+        const MySwal = withReactContent(Swal);
+
+        MySwal.fire({
+            title: <p>Hello World</p>,
+            footer: 'Copyright 2018',
+            didOpen: () => {
+              // `MySwal` is a subclass of `Swal`
+              //   with all the same instance & static methods
+              MySwal.clickConfirm()
+            }
+          }).then(() => {
+            return MySwal.fire({
+                title: <strong>Thank you!</strong>,
+                html: <i>for message me!</i>,
+                icon: 'success'
+            })
+          })
+
           console.log(result.text);
       }, (error) => {
           console.log(error.text);
       });
   };
+  
 
   return (
     <form ref={form} onSubmit={sendEmail}>

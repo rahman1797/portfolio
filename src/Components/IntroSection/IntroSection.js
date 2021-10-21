@@ -19,7 +19,7 @@ function IntroSection() {
 
     return (
         <>
-            <div className="intro-section row">
+            <div className="intro-section row" id="home">
                 <div className="col-md-6 intro-title-name m-auto p-5 mb-5">
                     <h3>Hi !!</h3>
                     <h3>I AM MAULANA RAHMAN NUR</h3>

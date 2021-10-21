@@ -5,7 +5,6 @@ import './Navbar.css'
 function Navbar() {
 
     const [click, setClick] = useState(false);
-    // const [button, setButton] = useState(true);
 
     const handleClick = () => setClick(!click);
     const handleCloseMobile = () => setClick(false);
@@ -24,19 +23,14 @@ function Navbar() {
                         </Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="/eksperience" className="nav-links" onClick={ handleCloseMobile } >
-                            Experience
-                        </Link>
+                        <a href="#experience" className="nav-links" onClick={ handleCloseMobile } >
+                            Work Experience
+                        </a>
                     </li>
                     <li className="nav-item">
-                        <Link to="/biodata" className="nav-links" onClick={ handleCloseMobile } >
-                            My Biodata
-                        </Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link to="/contact" className="nav-links" onClick={ handleCloseMobile } >
+                        <a href="#contact" className="nav-links" onClick={ handleCloseMobile } >
                             Contact
-                        </Link>
+                        </a>
                     </li>
                 </ul>
             </div>  

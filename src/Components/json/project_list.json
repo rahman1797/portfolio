@@ -9,7 +9,7 @@
     {
         "slug_url": "jamaah",
         "name": "Jama'ah",
-        "desc": "Web-based visit administration application for Pusat Kajian Hadits institution",
+        "desc": "Web-based visit administrative application for Pusat Kajian Hadits institution",
         "path": "/portfolio/assets/images/Administration/jamaah-1.jpg",
         "year": 2018
     },
@@ -65,7 +65,7 @@
     {
         "slug_url": "capa",
         "name": "CAPA",
-        "desc": "Corrective and preventive action administration",
+        "desc": "Corrective and preventive action administration system",
         "path": "/portfolio/assets/images/Other/notfound.jpg",
         "year": 2021
     },
@@ -79,7 +79,7 @@
     {
         "slug_url": "maintenance-hp",
         "name": "Maintenance H&P",
-        "desc": "Administration system for ",
+        "desc": "Administrative system for resource use and valuation ",
         "path": "/portfolio/assets/images/Administration/hp-1.jpg",
         "year": 2021
     }

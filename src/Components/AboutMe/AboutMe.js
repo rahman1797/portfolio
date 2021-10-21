@@ -6,12 +6,13 @@ function AboutMe() {
     return (
         <>
             <div className="container my-5 px-3">
+
                 <HeaderH1 title="ABOUT ME" />
                 <div className="row mt-5">
                     {/* EDUCATION */}
                     <div className="col-md-7 mb-5 px-4">
                         <h3 className="text-gold">Education</h3>
-                        <p>Im bachelor of <strong>Computer Science</strong> from <strong>State University of Jakarta</strong>.</p>
+                        <p>I am bachelor of <strong>Computer Science</strong> from <strong>State University of Jakarta</strong>.</p>
                     </div>
                     <div className="col-md-5 mb-5 row mx-auto">
                         <img className="about-img" src="/portfolio/assets/icons/undraw_graduation.svg" ></img>
@@ -76,13 +77,12 @@ function AboutMe() {
                             </div>
                         </div>
 
-                        
-
                     </div>
                     {/* PERSONALITY */}
                     <div className="col-md-7 mb-5 px-4">
                         <h3 className="text-gold">Personality</h3>
-                        <p>I like an environment where we can share knowledge and experiences, help each other, so that it can help to reach our maximum ability. Challenges and new knowledge related to anything, especially about information systems.</p>
+                        <p>I have a personality that likes to learn new things and challenges. My experience in organization makes me easy to adapt, fast learner, respects time, and can work independently or in a team</p>
+                        <p>In addition, I have an interest in the fields of education, marketplace, and medical. So, pressure is not an easy thing to make me give up because I love what I do</p>
                     </div>
                     <div className="col-md-5 mb-5 row mx-auto">
                         <img className="about-img" src="/portfolio/assets/icons/undraw_personalization.svg" ></img>

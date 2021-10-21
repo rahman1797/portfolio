@@ -34,7 +34,7 @@ function Journey() {
                 <div className="col-md-3 col-6 row mx-auto mb-3">
                     <div className="mx-auto card-journey row">
                         <div className="col-12">
-                            <h3>3</h3>
+                            <h3>2</h3>
                         </div>
                         <div className="col-12">
                             <h6>Management System</h6>
@@ -44,7 +44,7 @@ function Journey() {
                 <div className="col-md-3 col-6 row mx-auto mb-3">
                     <div className="mx-auto card-journey row">
                         <div className="col-12">
-                            <h3>3</h3>
+                            <h3>2</h3>
                         </div>
                         <div className="col-12">
                             <h6>Company Profile</h6>
@@ -64,7 +64,17 @@ function Journey() {
                 <div className="col-md-3 col-6 row mx-auto mb-3">
                     <div className="mx-auto card-journey row">
                         <div className="col-12">
-                            <h3><i className="fas fa-infinity"></i></h3>
+                            <h3>3</h3>
+                        </div>
+                        <div className="col-12">
+                            <h6>Administration</h6>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-md-3 col-6 row mx-auto mb-3">
+                    <div className="mx-auto card-journey row">
+                        <div className="col-12">
+                            <h3>3</h3>
                         </div>
                         <div className="col-12">
                             <h6>Others</h6>
@@ -102,6 +112,14 @@ function Journey() {
                         src="/portfolio/assets/images/News/Teknonomi-1.jpg"
                         text="A platform for sharing news information"
                         label="News"
+                        path="/service"
+                    />
+                </div>
+                <div className="col-lg-4 col-md-6 col-12">
+                    <Card
+                        src="/portfolio/assets/images/other/Other-1.jpg"
+                        text="Just for fun project"
+                        label="Other"
                         path="/service"
                     />
                 </div>
