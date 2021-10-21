@@ -62,7 +62,7 @@
     content: attr(data-label);
     position: absolute;
     bottom: 0;
-    margin-left: -150px;
+    left: 15px;
     border-top-left-radius: 15px;
     padding: 6px 8px;
     max-width: calc((100%) - 60px);

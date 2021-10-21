@@ -16,6 +16,7 @@
   color: var(--blue-3);
 }
 .App {
+  /* font-family: "sans-serif", "times", monospace; */
   overflow-x: clip;
   background: rgb(35,39,69);
   background: -moz-linear-gradient(90deg, rgba(35,39,69,1) 0%, rgba(38,43,80,1) 52%, rgba(26,79,127,1) 100%);

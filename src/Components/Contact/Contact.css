@@ -21,14 +21,15 @@
 .card-icon {
     background-color: white;
     border-radius: 50%;
-    width: 65px;
-    height: 65px;
+    width: 48px;
+    height: 48px;
     margin: 10px;
-    padding-left: 10px;
-    padding-bottom: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: auto;
     display: flex;
+}
+
+.icon-contact {
+    font-size: 24px;
 }
 
 .linkedin {
@@ -55,7 +56,7 @@
 .card-contact {
     background-color: rgba(255, 255, 255, 0.12);
     border-radius: 20px;
-    width: 70%;
+    width: 100%;
     color: white;
     padding-top: 80px;
     margin-bottom: 100px;

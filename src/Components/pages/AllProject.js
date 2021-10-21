@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import Data from '../json/project_list.json'
+import Card from "../Card/Card";
+import Data from '../json/project_list.json';
+import './AllProject.css'
 
 class AllProject extends React.Component {
 
@@ -24,24 +26,23 @@ class AllProject extends React.Component {
 
         return(
 
-            <>
-
-                <div className="container-fluid bg-light">
-
-                    <div className="row">
-
-                        {this.state.data.map(obj =>
-                            
-                            <Link className="col-md-4" to={"/portfolio/project/" + obj.slug_url}>
+            <>  
                                 
-                                <div className="card">
-                                    <img src={obj.path}></img>
-                                    <h4>{obj.name}</h4>
-                                    <small className="text-muted">Year: {obj.year}</small>
-                                    <div>{obj.desc}</div>
-                                </div>
+                <div className="header-overflow-project mx-auto"><h3>All Projects</h3></div>
+                <div className="container rounded-3 bg-light pt-5">
+                    <input type="text" className="form-control my-4 w-50 mx-auto" placeholder="search.." />
+                    <div className="row">                       
+                        {this.state.data.map(obj =>
 
-                            </Link>
+                            <div className="col-lg-4 col-md-6 col-12">
+                                <Card
+                                    src={obj.path}
+                                    text={obj.desc}
+                                    label={obj.name}
+                                    path="/service"
+                                />
+                            </div>
+
                             
                         )}
 

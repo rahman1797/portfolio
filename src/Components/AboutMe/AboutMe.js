@@ -22,21 +22,62 @@ function AboutMe() {
                     </div>
                     <div className="col-md-7 mb-5 px-4 text-light">
                         <h3 className="text-gold">Organization</h3>
-                        <small>2019 - 2020</small>
-                        <h5>Developing and Unyealding Learn Technology (DEFAULT)</h5>
-                        <p>as web developer - Create and developing web based application</p>
-                        <hr/>
-                        <small>2015 - 2017</small>
-                        <h5>Student Legislative Organization</h5>
-                        <p>as head of information and communication - Collect aspirations, design rules, and supervise work programs carried out by student executive institutions, information and communication divisions.</p>
-                        <hr/>
-                        <small>2018</small>
-                        <h5>Indonesian Historical Community (KHI)</h5>
-                        <p>as volunteer - Assist in the implementation of work programs, and do documentation on event activities.</p>
-                        <hr/>
-                        <small>2013 - 2015</small>
-                        <h5>Youth Organizations</h5>
-                        <p>as staff - planning and implementing activities in the community.</p>
+
+                        <div class="accordion" id="accordionPanelsStayOpenExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
+                                    Developing and Unyealding Learn Technology (DEFAULT)
+                                </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
+                                    <div class="accordion-body">
+                                        <small className="text-muted">2019 - 2020</small>
+                                        <p className="text-dark">as web developer - Create and developing web based application</p>                                
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                    Student Legislative Organization
+                                </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                                    <div class="accordion-body">
+                                        <small className="text-muted">2019 - 2020</small>
+                                        <p className="text-dark">as head of information and communication - Collect aspirations, design rules, and supervise work programs carried out by student executive institutions, information and communication divisions.</p>                                
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                    Indonesian Historical Community (KHI)
+                                </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                                <div class="accordion-body">
+                                    <small className="text-muted">2018</small>
+                                    <p className="text-dark">as volunteer - Assist in the implementation of work programs, and do documentation on event activities.</p>                                </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                                    Youth Organizations
+                                </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+                                <div class="accordion-body">
+                                    <small className="text-muted">2013 - 2015</small>
+                                    <p className="text-dark">as staff - planning and implementing activities in the community.</p>                                </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+
                     </div>
                     {/* PERSONALITY */}
                     <div className="col-md-7 mb-5 px-4">

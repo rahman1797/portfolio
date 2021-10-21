@@ -2,14 +2,14 @@
     {
         "slug_url": "online-legalization-information-system",
         "name": "Online legalization information system",
-        "desc": "Create and develop lecture research about website-based legalization application to make it easier for alumni who are far from campus locations",
+        "desc": "Lecture research about web-based legalization application to make it easier for alumni who are far from campus locations",
         "path": "/portfolio/assets/images/Administration/Sileg-1.jpg",
         "year": 2017
     },
     {
         "slug_url": "jamaah",
         "name": "Jama'ah",
-        "desc": "Create and develop website-based visit administration application for Pusat Kajian Hadits institution",
+        "desc": "Web-based visit administration application for Pusat Kajian Hadits institution",
         "path": "/portfolio/assets/images/Administration/jamaah-1.jpg",
         "year": 2018
     },
@@ -30,49 +30,56 @@
     {
         "slug_url": "teknonomi",
         "name": "Teknonomi Media",
-        "desc": "Design and develop website-based news portal",
+        "desc": "Web-based news portal for information about technology and economy",
         "path": "/portfolio/assets/images/News/Teknonomi-1.jpg",
         "year": 2019
     },
     {
         "slug_url": "opmawa-management-information-system",
         "name": "Opmawa Management Information System",
-        "desc": "Design and develop website-based news portal",
+        "desc": "OPMAWA organizational resource management website",
         "path": "/portfolio/assets/images/Management/Sim-1.jpg",
         "year": 2019
     },
     {
+        "slug_url": "epicor-support",
+        "name": "Epicor Support",
+        "desc": "Developing and customize Epicor ERP function",
+        "path": "/portfolio/assets/images/Other/notfound.jpg",
+        "year": 2020
+    },
+    {
         "slug_url": "eska",
         "name": "Eska Unggul Indonesia",
-        "desc": "Design and develop website-based news portal",
+        "desc": "Web-based company profile and publication of Eska Unggul Indonesia",
         "path": "/portfolio/assets/images/CompanyProfile/Eska-1.jpg",
         "year": 2021 
     },
     {
         "slug_url": "rsis",
         "name": "Recruitment Selection Information System (RSIS)",
-        "desc": "Design and develop website-based news portal",
+        "desc": "Automatic recruitment selection",
         "path": "/portfolio/assets/images/Management/Rsis-1.jpg",
         "year": 2021
     },
     {
         "slug_url": "capa",
         "name": "CAPA",
-        "desc": "Design and develop website-based news portal",
-        "path": null,
+        "desc": "Corrective and preventive action administration",
+        "path": "/portfolio/assets/images/Other/notfound.jpg",
         "year": 2021
     },
     {
         "slug_url":"chaka",
         "name": "CHAKA",
-        "desc": "Design and develop website-based news portal",
+        "desc": "Web-based HR System",
         "path": "/portfolio/assets/images/Management/Chaka-1.jpg",
         "year": 2021
     },
     {
         "slug_url": "maintenance-hp",
         "name": "Maintenance H&P",
-        "desc": "Design and develop website-based news portal",
+        "desc": "Administration system for ",
         "path": "/portfolio/assets/images/Administration/hp-1.jpg",
         "year": 2021
     }
