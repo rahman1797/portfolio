@@ -5,7 +5,7 @@ import HeaderH1 from '../pieces/HeaderH1'
 function AboutMe() {
     return (
         <>
-            <div className="container my-5 px-3">
+            <div className="container mt-5 px-3">
 
                 <HeaderH1 title="ABOUT ME" />
                 <div className="row mt-5">
@@ -84,7 +84,7 @@ function AboutMe() {
                         <p>I have a personality that likes to learn new things and challenges. My experience in organization makes me easy to adapt, fast learner, respects time, and can work independently or in a team</p>
                         <p>In addition, I have an interest in the fields of education, marketplace, and medical. So, pressure is not an easy thing to make me give up because I love what I do</p>
                     </div>
-                    <div className="col-md-5 mb-5 row mx-auto">
+                    <div className="col-md-5 row mx-auto">
                         <img className="about-img" src="/portfolio/assets/icons/undraw_personalization.svg" ></img>
                     </div>
                 </div>

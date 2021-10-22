@@ -1,11 +1,40 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 // import Card from './Card'
 import '../Card/Card.css'
 import './Journey.css'
 import Card from '../Card/Card'
 import { Link } from 'react-router-dom'
+import Data from '../json/project_list.json';
+
+const data = Data;
+const countMatchKey = (key) => {
+    let count = 0;
+    data.forEach(element => {
+        if(element.type == key){
+            count++;
+        }
+    });
+    return count;
+}
 
 function Journey() {
+
+    const [administration, setAdministration] = useState(countMatchKey('administration'))
+    const [management, setManagement] = useState(countMatchKey('management'))
+    const [reading, setReading] = useState(countMatchKey('reading'))
+    const [other, setOther] = useState(countMatchKey('other'))
+    const [news, setNews] = useState(countMatchKey('news'))
+    const [companyProfile, setCompanyProfile] = useState(countMatchKey('company-profile'))
+    
+    // useEffect(() => {
+    //     let iteration = 0;
+    //     const interval = setInterval(() => {
+    //         iteration += 1;
+    //         setRole(text_role[iteration % text_role.length])
+    //     }, 1700);
+    //     return () => clearInterval(interval);
+    //   }, []);
+
     return (
         <div className="container text-center text-light" id="journey">
             <i className="fas fa-code"></i>
@@ -30,62 +59,72 @@ function Journey() {
                 <i className="icon-fa devicon-react-original colored" data-toggle="tooltip" data-placement="bottom" title="ReactJS - About 3 months"></i>
             </div>
             
-            <div className="row my-5">
-                <div className="col-md-3 col-6 row mx-auto mb-3">
-                    <div className="mx-auto card-journey row">
+            <div className="row my-5 col-md-8 mx-auto">
+                <Link to="/portfolio/project/management" className="col-md-4 col-6 row mb-3 mx-auto">
+                    <div className="card-journey mx-auto row">
                         <div className="col-12">
-                            <h3>2</h3>
+                            <h3>{ management }</h3>
                         </div>
                         <div className="col-12">
                             <h6>Management System</h6>
                         </div>
                     </div>
-                </div>
-                <div className="col-md-3 col-6 row mx-auto mb-3">
-                    <div className="mx-auto card-journey row">
+                </Link>
+                <Link to="/portfolio/project/company-profile" className="col-md-4 col-6 row mb-3 mx-auto">
+                    <div className="card-journey row mx-auto">
                         <div className="col-12">
-                            <h3>2</h3>
+                            <h3>{ companyProfile }</h3>
                         </div>
                         <div className="col-12">
                             <h6>Company Profile</h6>
                         </div>
                     </div>
-                </div>
-                <div className="col-md-3 col-6 row mx-auto mb-3">
-                    <div className="mx-auto card-journey row">
+                </Link>
+                <Link to="/portfolio/project/news" className="col-md-4 col-6 row mb-3 mx-auto">
+                    <div className="card-journey row mx-auto">
                         <div className="col-12">
-                            <h3>1</h3>
+                            <h3>{ news }</h3>
                         </div>
                         <div className="col-12">
                             <h6>News</h6>
                         </div>
                     </div>
-                </div>
-                <div className="col-md-3 col-6 row mx-auto mb-3">
-                    <div className="mx-auto card-journey row">
+                </Link>
+                <Link to="/portfolio/project/reading" className="col-md-4 col-6 row mb-3 mx-auto">
+                    <div className="card-journey row mx-auto">
                         <div className="col-12">
-                            <h3>3</h3>
+                            <h3>{ reading }</h3>
+                        </div>
+                        <div className="col-12">
+                            <h6>Reading</h6>
+                        </div>
+                    </div>
+                </Link>
+                <Link to="/portfolio/project/administration" className="col-md-4 col-6 row mb-3 mx-auto">
+                    <div className="card-journey row mx-auto">
+                        <div className="col-12">
+                            <h3>{ administration }</h3>
                         </div>
                         <div className="col-12">
                             <h6>Administration</h6>
                         </div>
                     </div>
-                </div>
-                <div className="col-md-3 col-6 row mx-auto mb-3">
-                    <div className="mx-auto card-journey row">
+                </Link>
+                <Link to="/portfolio/project/other" className="col-md-4 col-6 row mb-3 mx-auto">
+                    <div className="card-journey row mx-auto">
                         <div className="col-12">
-                            <h3>3</h3>
+                            <h3>{ other }</h3>
                         </div>
                         <div className="col-12">
                             <h6>Others</h6>
                         </div>
                     </div>
-                </div>
+                </Link>
             </div>
             <div className="row">
                 <div className="col-lg-4 col-md-6 col-12">
                     <Card
-                        src="/portfolio/assets/images/Management/SIM-1.jpg"
+                        src="/portfolio/assets/images/Management/Sim-1.jpg"
                         text="A system that can be used to manage resources"
                         label="Management System"
                         path="/service"
@@ -117,7 +156,7 @@ function Journey() {
                 </div>
                 <div className="col-lg-4 col-md-6 col-12">
                     <Card
-                        src="/portfolio/assets/images/other/Other-1.jpg"
+                        src="/portfolio/assets/images/Other/Other-1.jpg"
                         text="Just for fun project"
                         label="Other"
                         path="/service"

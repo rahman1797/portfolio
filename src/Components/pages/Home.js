@@ -16,7 +16,8 @@ function Home() {
                 <AboutMe title="About Me" />
                 <WorkExperience title="WorkExperience" />
                 <Route path="/portfolio" component={Journey} exact />
-                <Route path="/portfolio/all-project" component={AllProject} />
+                <Route path="/portfolio/all-project" component={AllProject} exact />
+                <Route path="/portfolio/project/:type" component={AllProject} exact />
                 <Contact />
                 <Footer />
             </>

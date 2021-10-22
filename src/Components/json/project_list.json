@@ -4,83 +4,95 @@
         "name": "Online legalization information system",
         "desc": "Lecture research about web-based legalization application to make it easier for alumni who are far from campus locations",
         "path": "/portfolio/assets/images/Administration/Sileg-1.jpg",
-        "year": 2017
+        "year": 2017,
+        "type": "administration"
     },
     {
         "slug_url": "jamaah",
         "name": "Jama'ah",
         "desc": "Web-based visit administrative application for Pusat Kajian Hadits institution",
         "path": "/portfolio/assets/images/Administration/jamaah-1.jpg",
-        "year": 2018
+        "year": 2018,
+        "type": "administration"
     },
     {
         "slug_url": "spot-on",
         "name": "Spot On",
         "desc": "A platform for finding and renting places",
         "path": "/portfolio/assets/images/Other/spoton-1.jpg",
-        "year": 2018
+        "year": 2018,
+        "type": "other"
     },
     {
         "slug_url": "bookita",
         "name": "Bookita",
         "desc": "A platform for reading fiction and finding books you want to find",
         "path": "/portfolio/assets/images/Reading/Bookita-1.jpg",
-        "year": 2019
+        "year": 2019,
+        "type": "reading"
     },
     {
         "slug_url": "teknonomi",
         "name": "Teknonomi Media",
         "desc": "Web-based news portal for information about technology and economy",
         "path": "/portfolio/assets/images/News/Teknonomi-1.jpg",
-        "year": 2019
+        "year": 2019,
+        "type": "news"
     },
     {
         "slug_url": "opmawa-management-information-system",
         "name": "Opmawa Management Information System",
         "desc": "OPMAWA organizational resource management website",
         "path": "/portfolio/assets/images/Management/Sim-1.jpg",
-        "year": 2019
+        "year": 2019,
+        "type": "management"
     },
     {
         "slug_url": "epicor-support",
         "name": "Epicor Support",
         "desc": "Developing and customize Epicor ERP function",
         "path": "/portfolio/assets/images/Other/notfound.jpg",
-        "year": 2020
+        "year": 2020,
+        "type": "management"
     },
     {
         "slug_url": "eska",
         "name": "Eska Unggul Indonesia",
         "desc": "Web-based company profile and publication of Eska Unggul Indonesia",
         "path": "/portfolio/assets/images/CompanyProfile/Eska-1.jpg",
-        "year": 2021 
+        "year": 2021,
+        "type": "company-profile"
     },
     {
         "slug_url": "rsis",
         "name": "Recruitment Selection Information System (RSIS)",
         "desc": "Automatic recruitment selection",
         "path": "/portfolio/assets/images/Management/Rsis-1.jpg",
-        "year": 2021
+        "year": 2021,
+        "type": "management"
     },
     {
         "slug_url": "capa",
         "name": "CAPA",
         "desc": "Corrective and preventive action administration system",
         "path": "/portfolio/assets/images/Other/notfound.jpg",
-        "year": 2021
-    },
-    {
-        "slug_url":"chaka",
-        "name": "CHAKA",
-        "desc": "Web-based HR System",
-        "path": "/portfolio/assets/images/Management/Chaka-1.jpg",
-        "year": 2021
+        "year": 2021,
+        "type": "administration"
     },
     {
         "slug_url": "maintenance-hp",
         "name": "Maintenance H&P",
         "desc": "Administrative system for resource use and valuation ",
         "path": "/portfolio/assets/images/Administration/hp-1.jpg",
-        "year": 2021
+        "year": 2021,
+        "type": "administration"
+    },
+    {
+        "slug_url": "chaka",
+        "name": "CHAKA",
+        "desc": "Web-based HR System",
+        "path": "/portfolio/assets/images/Management/Chaka-1.jpg",
+        "year": 2021,
+        "type": "management"
     }
 ]

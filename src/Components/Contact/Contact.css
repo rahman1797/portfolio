@@ -33,25 +33,13 @@
     font-size: 24px;
 }
 
-.card-icon-telegram {
-    width: 48px;
-    border-radius: 50%;
-    cursor: pointer;
-    margin: 10px;
-}
-.icon-contact-telegram {
-    position: absolute;
-    font-size: 49px;
-    transform: translateX(-12px);
-}
-
 .linkedin {
     background-color: #0e76a8;
     color: white;
 }
 .telegram {
-    background-color: white ;
-    color: #37afe2;
+    background-color: #37afe2 ;
+    color: white;
 }
 .github {
     background-color: white;
@@ -78,7 +66,3 @@
     padding-top: 80px;
     margin-bottom: 100px;
 }
-
-/* .card-contact small {
-    color: rgb(83, 83, 83);
-} */

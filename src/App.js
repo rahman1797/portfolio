@@ -11,7 +11,6 @@ function App() {
         <Navbar />
         <Switch>
           <Route path="/portfolio" component={Home} />
-          {/* <Route path="/experience" component={Experience} /> */}
         </Switch>
       </Router>
     </div>
