@@ -11,6 +11,7 @@
 .card-journey {
     background: rgba(255, 255, 255, 0.25);
     height: 100px;
+    color: white;
     overflow-wrap: normal;
     border: 1px solid rgba(255, 200, 200, 0.5);
     padding: 10px;

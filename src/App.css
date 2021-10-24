@@ -15,6 +15,9 @@
 .text-blue {
   color: var(--blue-3);
 }
+a {
+  text-decoration: none;
+}
 .App {
   /* font-family: "sans-serif", "times", monospace; */
   overflow-x: clip;
@@ -50,4 +53,8 @@ i.fas.fa-code {
 p {
   font-size: 18px;
   color: var(--primary);
+}
+
+.loading {
+  width: 35px;
 }

@@ -1,5 +1,4 @@
 import React, {useState} from 'react'
-import { Link } from 'react-router-dom'
 import './Navbar.css'
 
 function Navbar() {
@@ -18,9 +17,9 @@ function Navbar() {
                 </div>
                 <ul className={ click ? 'nav-menu active' : 'nav-menu' }>
                     <li className="nav-item">
-                        <Link to="/portfolio" className="nav-links" onClick={ handleCloseMobile } >
+                        <a href="#home" to="/portfolio" className="nav-links" onClick={ handleCloseMobile } >
                             Home
-                        </Link>
+                        </a>
                     </li>
                     <li className="nav-item">
                         <a href="#experience" className="nav-links" onClick={ handleCloseMobile } >

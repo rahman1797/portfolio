@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState} from 'react'
 // import Card from './Card'
 import '../Card/Card.css'
 import './Journey.css'
@@ -10,7 +10,7 @@ const data = Data;
 const countMatchKey = (key) => {
     let count = 0;
     data.forEach(element => {
-        if(element.type == key){
+        if(element.type === key){
             count++;
         }
     });
@@ -25,15 +25,6 @@ function Journey() {
     const [other, setOther] = useState(countMatchKey('other'))
     const [news, setNews] = useState(countMatchKey('news'))
     const [companyProfile, setCompanyProfile] = useState(countMatchKey('company-profile'))
-    
-    // useEffect(() => {
-    //     let iteration = 0;
-    //     const interval = setInterval(() => {
-    //         iteration += 1;
-    //         setRole(text_role[iteration % text_role.length])
-    //     }, 1700);
-    //     return () => clearInterval(interval);
-    //   }, []);
 
     return (
         <div className="container text-center text-light" id="journey">
@@ -41,7 +32,7 @@ function Journey() {
             <h1 className="text-gold">My Journey</h1>
             <h5 className="text-blue">There is an activity that i've do since 2015 (start collage) to now</h5>
             <div className="text-muted mb-3">Technology I've used</div>
-            <div className="scroll-x alert bg-light rounded-3 ">
+            <div className="scroll-x alert bg-light rounded-3 col-md-10 mx-auto">
                 <i className="icon-fa devicon-php-plain colored" data-toggle="tooltip" data-placement="bottom" title="PHP - More than 5 years"></i>
                 <i className="icon-fa devicon-css3-plain colored" data-toggle="tooltip" data-placement="bottom" title="CSS - More than 5 years"></i>            
                 <i className="icon-fa devicon-html5-plain colored" data-toggle="tooltip" data-placement="bottom" title="HTML - More than 5 years"></i>
@@ -59,7 +50,7 @@ function Journey() {
                 <i className="icon-fa devicon-react-original colored" data-toggle="tooltip" data-placement="bottom" title="ReactJS - About 3 months"></i>
             </div>
             
-            <div className="row my-5 col-md-8 mx-auto">
+            <div className="row my-5 col-md-8 mx-auto ">
                 <Link to="/portfolio/project/management" className="col-md-4 col-6 row mb-3 mx-auto">
                     <div className="card-journey mx-auto row">
                         <div className="col-12">
@@ -127,7 +118,7 @@ function Journey() {
                         src="/portfolio/assets/images/Management/Sim-1.jpg"
                         text="A system that can be used to manage resources"
                         label="Management System"
-                        path="/service"
+                        url="/portfolio/project/management"
                     />
                 </div>
                 <div className="col-lg-4 col-md-6 col-12">
@@ -135,15 +126,7 @@ function Journey() {
                         src="/portfolio/assets/images/CompanyProfile/Eska-1.jpg"
                         text="Website that contains information about the company / organization"
                         label="Company Profile"
-                        path="/service"
-                    />
-                </div>
-                <div className="col-lg-4 col-md-6 col-12">
-                    <Card
-                        src="/portfolio/assets/images/Reading/Bookita-1.jpg"
-                        text="A platform for sharing fiction stories"
-                        label="Reading Platform"
-                        path="/service"
+                        path="/portfolio/project/company-profile"
                     />
                 </div>
                 <div className="col-lg-4 col-md-6 col-12">
@@ -151,20 +134,36 @@ function Journey() {
                         src="/portfolio/assets/images/News/Teknonomi-1.jpg"
                         text="A platform for sharing news information"
                         label="News"
-                        path="/service"
+                        path="/portfolio/project/news"
+                    />
+                </div>
+                <div className="col-lg-4 col-md-6 col-12">
+                    <Card
+                        src="/portfolio/assets/images/Reading/Bookita-1.jpg"
+                        text="A platform for sharing fiction stories"
+                        label="Reading Platform"
+                        path="/portfolio/project/reading"
+                    />
+                </div>
+                <div className="col-lg-4 col-md-6 col-12">
+                    <Card
+                        src="/portfolio/assets/images/Administration/hp-1.jpg"
+                        text="An administrative information system to record activities and reporting"
+                        label="Administration"
+                        path="/portfolio/project/administration"
                     />
                 </div>
                 <div className="col-lg-4 col-md-6 col-12">
                     <Card
                         src="/portfolio/assets/images/Other/Other-1.jpg"
-                        text="Just for fun project"
+                        text="Just for fun, training, and testing project"
                         label="Other"
-                        path="/service"
+                        path="/portfolio/project/other"
                     />
                 </div>
             </div>
-            <Link to="/portfolio/all-project">
-                <button className="btn btn-primary">See all project</button>
+            <Link to="/portfolio/project">
+                <button className="btn btn-warning">See all project</button>
             </Link>
         </div>
     )

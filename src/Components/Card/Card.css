@@ -35,12 +35,12 @@
   .card-item-link {
     display: flex;
     flex-flow: column;
-    width: 100%;
-    /* width: 100%; */
+    width: 100% !important;
+    /* min-width: 10em; */
     box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
     -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-    border-radius: 10px;
+    border-radius: 1rem;
     overflow: hidden;
     text-decoration: none;
     background: whitesmoke;
@@ -53,10 +53,10 @@
     overflow: hidden;
   }
   
-  .fade-img {
+  /* .fade-img {
     animation-name: fade-img;
     animation-duration: 2s;
-  }
+  } */
   
   .card-item-pic::after {
     content: attr(data-label);
@@ -78,12 +78,8 @@
     right: 0;
     bottom: 0;
     left: 0;
-    display: block;
     width: 100%;
-    max-width: 100%;
     height: 100%;
-    max-height: 100%;
-    /* object-fit: cover; */
     transition: all 0.2s linear;
   }
   

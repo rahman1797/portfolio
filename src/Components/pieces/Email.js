@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from 'emailjs-com';
 import emailkey from '../../helper/emailkey';
 import Swal from 'sweetalert2'
@@ -7,8 +7,14 @@ import withReactContent from 'sweetalert2-react-content'
 export const Email = () => {
   const form = useRef();
 
+  const [send, setSend] = useState(false);
+
+  const handleSend = (value) => setSend(value);
+
   const sendEmail = (e) => {
     e.preventDefault();
+
+    handleSend(true);
 
     emailjs.sendForm(emailkey.SERVICE_ID, emailkey.TEMPLATE_ID, form.current, emailkey.USER_ID)
       .then((result) => {
@@ -16,11 +22,9 @@ export const Email = () => {
         const MySwal = withReactContent(Swal);
 
         MySwal.fire({
-            title: <p>Hello World</p>,
-            footer: 'Copyright 2018',
+            // title: <p>Hello World</p>,
+            // footer: 'Copyright 2018',
             didOpen: () => {
-              // `MySwal` is a subclass of `Swal`
-              //   with all the same instance & static methods
               MySwal.clickConfirm()
             }
           }).then(() => {
@@ -29,11 +33,13 @@ export const Email = () => {
                 html: <i>for message me!</i>,
                 icon: 'success'
             })
-          })
+          });
+          handleSend(false);
+          form.current.reset();
 
-          console.log(result.text);
+          // console.log(result.text);
       }, (error) => {
-          console.log(error.text);
+          // console.log(error.text);
       });
   };
   
@@ -54,7 +60,7 @@ export const Email = () => {
         <textarea id="message" className="form-control" rows="5" name="message" />
       </div>
       <div className="form-group mx-auto">
-        <input className="btn btn-primary my-4 w-100" type="submit" value="Send" />
+        <button className={`btn btn-primary my-4 w-100 ${send ? 'disabled' : ''}`} type="submit"><img className={`loading ${send ? '' : 'd-none'}`} src="portfolio/assets/icons/loading.svg" /> {send ? 'Sending...' : 'Send'}</button>
       </div>
       {/* <button type="submit" className="btn btn-primary">Submit</button>
       <label>Name</label>

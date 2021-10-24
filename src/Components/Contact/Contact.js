@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { Email } from '../pieces/Email'
 import HeaderH1 from '../pieces/HeaderH1'
 import './Contact.css'

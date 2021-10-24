@@ -32,6 +32,14 @@
         "type": "reading"
     },
     {
+        "slug_url": "dimerco",
+        "name": "Dimerco Hokindo",
+        "desc": "Web-based company profile of PT Dimerco Hokindo",
+        "path": "/portfolio/assets/images/CompanyProfile/dimerco-1.jpg",
+        "year": 2019,
+        "type": "company-profile"
+    },
+    {
         "slug_url": "teknonomi",
         "name": "Teknonomi Media",
         "desc": "Web-based news portal for information about technology and economy",
@@ -48,10 +56,18 @@
         "type": "management"
     },
     {
+        "slug_url": "job",
+        "name": "SiKerja",
+        "desc": "Web-based job search platform to find available vacancies",
+        "path": "/portfolio/assets/images/other/job-1.jpg",
+        "year": 2019,
+        "type": "other"
+    },
+    {
         "slug_url": "epicor-support",
         "name": "Epicor Support",
         "desc": "Developing and customize Epicor ERP function",
-        "path": "/portfolio/assets/images/Other/notfound.jpg",
+        "path": "/portfolio/assets/images/management/epicor-1.jpg",
         "year": 2020,
         "type": "management"
     },
@@ -90,7 +106,7 @@
     {
         "slug_url": "chaka",
         "name": "CHAKA",
-        "desc": "Web-based HR System",
+        "desc": "Web-based Human Resources (HR) System",
         "path": "/portfolio/assets/images/Management/Chaka-1.jpg",
         "year": 2021,
         "type": "management"
