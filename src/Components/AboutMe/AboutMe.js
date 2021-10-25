@@ -3,6 +3,7 @@ import './AboutMe.css'
 import HeaderH1 from '../pieces/HeaderH1'
 
 function AboutMe() {
+    
     return (
         <>
             <div className="container mt-5 px-3">
@@ -10,20 +11,20 @@ function AboutMe() {
                 <HeaderH1 title="ABOUT ME" />
                 <div className="row mt-5">
                     {/* EDUCATION */}
-                    <div className="col-md-7 col-md-push-5 mb-5 px-4">
+                    <div className="col-md-7 col-md-push-5 mb-5 px-4" data-aos='fade-right'>
                         <h3 className="text-gold">Education</h3>
                         <p>I am bachelor of <strong>Computer Science</strong> from <strong>State University of Jakarta</strong>.</p>
                     </div>
-                    <div className="col-md-5 col-md-push-7 mb-5 row mx-auto">
+                    <div className="col-md-5 col-md-push-7 mb-5 row mx-auto" data-aos='fade-left'>
                         <img className="about-img" src="/portfolio/assets/icons/undraw_graduation.svg" ></img>
                     </div>
                 </div>
                 <div className="row mt-3 flex-column-reverse flex-md-row">
                     {/* ORGANIZATION */}
-                    <div className="col-md-5 mb-5 row mx-auto">
+                    <div className="col-md-5 mb-5 row mx-auto" data-aos='fade-right'>
                         <img className="about-img" src="/portfolio/assets/icons/undraw_organization.svg" ></img>
                     </div>
-                    <div className="col-md-7 mb-5 px-4 text-light">
+                    <div className="col-md-7 mb-5 px-4 text-light" data-aos='fade-left'>
                         <h3 className="text-gold mb-3">Organization</h3>
                         <div class="accordion">
                             <div class="accordion-item">
@@ -111,12 +112,12 @@ function AboutMe() {
                 </div>
                 <div className="row mt-3">
                     {/* PERSONALITY */}
-                    <div className="col-md-7 mb-5 px-4">
+                    <div className="col-md-7 mb-5 px-4" data-aos='fade-right'>
                         <h3 className="text-gold">Personality and Interests</h3>
                         <p>I have a personality that likes to learn new things and challenges. My experience in organization makes me easy to adapt, fast learner, respects time, and can work independently or in a team. So, pressure is not an easy thing to make me give up because I love what I do</p>
                         <p>In addition, I have an interest in the fields of education and marketplace (but it's still possible to like other fields) and passion for frontend development, UI/UX, SEO, and other things about visualization </p>
                     </div>
-                    <div className="col-md-5 row mx-auto">
+                    <div className="col-md-5 row mx-auto" data-aos='fade-left'>
                         <img className="about-img" src="/portfolio/assets/icons/undraw_personalization.svg" ></img>
                     </div>
                 </div>

@@ -15,6 +15,22 @@
 .text-blue {
   color: var(--blue-3);
 }
+.btn-info {
+  background-color: #4ac8c2;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+.form-control, .form-select {
+  border-radius: 20px;
+  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+}
+.btn-warning {
+  background-color: #ffc403;
+  font-weight: 500;
+  color: rgb(44, 44, 44);
+  /* font-size: 15px; */
+}
 a {
   text-decoration: none;
 }

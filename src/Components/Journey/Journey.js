@@ -113,7 +113,7 @@ function Journey() {
                 </Link>
             </div>
             <div className="row">
-                <div className="col-lg-4 col-md-6 col-12">
+                <div className="col-lg-4 col-md-6 col-12" data-aos='fade-up'>
                     <Card
                         src="/portfolio/assets/images/Management/Sim-1.jpg"
                         text="A system that can be used to manage resources"
@@ -121,7 +121,7 @@ function Journey() {
                         url="/portfolio/project/management"
                     />
                 </div>
-                <div className="col-lg-4 col-md-6 col-12">
+                <div className="col-lg-4 col-md-6 col-12" data-aos='fade-up'>
                     <Card
                         src="/portfolio/assets/images/CompanyProfile/Eska-1.jpg"
                         text="Website that contains information about the company / organization"
@@ -129,7 +129,7 @@ function Journey() {
                         url="/portfolio/project/company-profile"
                     />
                 </div>
-                <div className="col-lg-4 col-md-6 col-12">
+                <div className="col-lg-4 col-md-6 col-12" data-aos='fade-up'>
                     <Card
                         src="/portfolio/assets/images/News/Teknonomi-1.jpg"
                         text="A platform for sharing news information"
@@ -137,7 +137,7 @@ function Journey() {
                         url="/portfolio/project/news"
                     />
                 </div>
-                <div className="col-lg-4 col-md-6 col-12">
+                <div className="col-lg-4 col-md-6 col-12" data-aos='fade-up'>
                     <Card
                         src="/portfolio/assets/images/Reading/Bookita-1.jpg"
                         text="A platform for sharing fiction stories"
@@ -145,7 +145,7 @@ function Journey() {
                         url="/portfolio/project/reading"
                     />
                 </div>
-                <div className="col-lg-4 col-md-6 col-12">
+                <div className="col-lg-4 col-md-6 col-12" data-aos='fade-up'>
                     <Card
                         src="/portfolio/assets/images/Administration/hp-1.jpg"
                         text="An administrative information system to record activities and reporting"
@@ -153,7 +153,7 @@ function Journey() {
                         url="/portfolio/project/administration"
                     />
                 </div>
-                <div className="col-lg-4 col-md-6 col-12">
+                <div className="col-lg-4 col-md-6 col-12" data-aos='fade-up'>
                     <Card
                         src="/portfolio/assets/images/Other/Other-1.jpg"
                         text="Just for fun, training, and testing project"
