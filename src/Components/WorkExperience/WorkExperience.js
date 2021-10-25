@@ -11,8 +11,8 @@ function WorkExperience(props) {
                 
                 <div className="list-group-item list-group-item-action flex-column ">
                     <div className="d-flex w-100 justify-content-between">
-                    <h5 className="mb-1">Technical Consultant (Software Developer)</h5>
-                    <small className="text-muted">April 2020 - Now</small>
+                    <h5 className="mb-1">Technical Consultant (Fullstack Developer)</h5>
+                    <small className="text-muted">February 2020 - Now</small>
                     </div>
                     <p className="mb-1 text-dark">
                         <ul>

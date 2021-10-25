@@ -35,7 +35,7 @@
         "slug_url": "dimerco",
         "name": "Dimerco Hokindo",
         "desc": "Web-based company profile of PT Dimerco Hokindo",
-        "path": "/portfolio/assets/images/CompanyProfile/dimerco-1.jpg",
+        "path": "/portfolio/assets/images/CompanyProfile/Dimerco-1.jpg",
         "year": 2019,
         "type": "company-profile"
     },
@@ -59,7 +59,7 @@
         "slug_url": "job",
         "name": "SiKerja",
         "desc": "Web-based job search platform to find available vacancies",
-        "path": "/portfolio/assets/images/other/job-1.jpg",
+        "path": "/portfolio/assets/images/Other/job-1.jpg",
         "year": 2019,
         "type": "other"
     },
@@ -67,7 +67,7 @@
         "slug_url": "epicor-support",
         "name": "Epicor Support",
         "desc": "Developing and customize Epicor ERP function",
-        "path": "/portfolio/assets/images/management/epicor-1.jpg",
+        "path": "/portfolio/assets/images/Management/epicor-1.jpg",
         "year": 2020,
         "type": "management"
     },
