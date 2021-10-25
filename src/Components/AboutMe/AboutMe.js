@@ -112,7 +112,7 @@ function AboutMe() {
                 <div className="row mt-3">
                     {/* PERSONALITY */}
                     <div className="col-md-7 mb-5 px-4">
-                        <h3 className="text-gold">Personality</h3>
+                        <h3 className="text-gold">Personality and Interests</h3>
                         <p>I have a personality that likes to learn new things and challenges. My experience in organization makes me easy to adapt, fast learner, respects time, and can work independently or in a team. So, pressure is not an easy thing to make me give up because I love what I do</p>
                         <p>In addition, I have an interest in the fields of education and marketplace (but it's still possible to like other fields) and passion for frontend development, UI/UX, SEO, and other things about visualization </p>
                     </div>

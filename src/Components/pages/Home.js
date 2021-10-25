@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 import Project from './Project'
 import WorkExperience from '../WorkExperience/WorkExperience'
 import Footer from '../Footer/Footer'
+import Under_construction from '../pieces/Under_construction'
 
 function Home() {
     return (
@@ -18,6 +19,7 @@ function Home() {
                 <Route path="/portfolio" component={Journey} exact />
                 <Route path="/portfolio/project" component={Project} exact />
                 <Route path="/portfolio/project/:type" component={Project} exact />
+                <Route path="/portfolio/project/overview/:url" component={Under_construction} exact />
                 <Contact />
                 <Footer />
             </>

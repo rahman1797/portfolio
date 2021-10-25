@@ -126,7 +126,7 @@ function Journey() {
                         src="/portfolio/assets/images/CompanyProfile/Eska-1.jpg"
                         text="Website that contains information about the company / organization"
                         label="Company Profile"
-                        path="/portfolio/project/company-profile"
+                        url="/portfolio/project/company-profile"
                     />
                 </div>
                 <div className="col-lg-4 col-md-6 col-12">
@@ -134,7 +134,7 @@ function Journey() {
                         src="/portfolio/assets/images/News/Teknonomi-1.jpg"
                         text="A platform for sharing news information"
                         label="News"
-                        path="/portfolio/project/news"
+                        url="/portfolio/project/news"
                     />
                 </div>
                 <div className="col-lg-4 col-md-6 col-12">
@@ -142,7 +142,7 @@ function Journey() {
                         src="/portfolio/assets/images/Reading/Bookita-1.jpg"
                         text="A platform for sharing fiction stories"
                         label="Reading Platform"
-                        path="/portfolio/project/reading"
+                        url="/portfolio/project/reading"
                     />
                 </div>
                 <div className="col-lg-4 col-md-6 col-12">
@@ -150,7 +150,7 @@ function Journey() {
                         src="/portfolio/assets/images/Administration/hp-1.jpg"
                         text="An administrative information system to record activities and reporting"
                         label="Administration"
-                        path="/portfolio/project/administration"
+                        url="/portfolio/project/administration"
                     />
                 </div>
                 <div className="col-lg-4 col-md-6 col-12">
@@ -158,7 +158,7 @@ function Journey() {
                         src="/portfolio/assets/images/Other/Other-1.jpg"
                         text="Just for fun, training, and testing project"
                         label="Other"
-                        path="/portfolio/project/other"
+                        url="/portfolio/project/other"
                     />
                 </div>
             </div>
