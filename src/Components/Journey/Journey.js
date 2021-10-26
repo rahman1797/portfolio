@@ -30,24 +30,24 @@ function Journey() {
         <div className="container text-center text-light" id="journey">
             <i className="fas fa-code"></i>
             <h1 className="text-gold">My Journey</h1>
-            <h5 className="text-blue">There is an activity that i've do since 2015 (start collage) to now</h5>
-            <div className="text-muted mb-3">Technology I've used</div>
-            <div className="scroll-x alert bg-light rounded-3 col-md-10 mx-auto">
-                <i className="icon-fa devicon-php-plain colored" data-toggle="tooltip" data-placement="bottom" title="PHP - More than 5 years"></i>
-                <i className="icon-fa devicon-css3-plain colored" data-toggle="tooltip" data-placement="bottom" title="CSS - More than 5 years"></i>            
-                <i className="icon-fa devicon-html5-plain colored" data-toggle="tooltip" data-placement="bottom" title="HTML - More than 5 years"></i>
-                <i className="icon-fa devicon-mysql-plain colored" data-toggle="tooltip" data-placement="bottom" title="MySql - More than 5 years"></i>
-                <i className="icon-fa devicon-codeigniter-plain colored" data-toggle="tooltip" data-placement="bottom" title=" CodeIgniter - More than 5 years"></i>
-                <i className="icon-fa devicon-bootstrap-plain colored" data-toggle="tooltip" data-placement="bottom" title="Bootstrap - More than 4 years"></i>
-                <i className="icon-fa devicon-javascript-plain colored" data-toggle="tooltip" data-placement="bottom" title="Javascript - More than 3 years"></i>
-                <i className="icon-fa devicon-jquery-plain colored" data-toggle="tooltip" data-placement="bottom" title="jQuery - More than 3 years"></i>
-                <i className="icon-fa devicon-git-plain colored" data-toggle="tooltip" data-placement="bottom" title="Git - More than 2 years"></i>
-                <i className="icon-fa devicon-csharp-plain colored" data-toggle="tooltip" data-placement="bottom" title="C# - More than 1 years"></i>
-                <i className="icon-fa devicon-microsoftsqlserver-plain colored" data-toggle="tooltip" data-placement="bottom" title="SQL Server - More than 1 years"></i>
-                <i className="icon-fa devicon-dotnetcore-plain colored" data-toggle="tooltip" data-placement="bottom" title=".NET Core - More than 1 years"></i>
-                <i className="icon-fa devicon-laravel-plain colored" data-toggle="tooltip" data-placement="bottom" title="Laravel - More than 1 years"></i>
-                <i className="icon-fa devicon-java-plain colored" data-toggle="tooltip" data-placement="bottom" title="Java - About 4 months"></i>
-                <i className="icon-fa devicon-react-original colored" data-toggle="tooltip" data-placement="bottom" title="ReactJS - About 3 months"></i>
+            <h5 className="text-blue">There is an activity that i've done since 2015 (start college) to now</h5>
+            <div className="text-muted-1 mb-3">Technology I've used</div>
+            <div className="scroll-x alert bg-light col-md-10 mx-auto">
+                <i className="icon-fa devicon-php-plain colored" data-toggle="tooltip" data-placement="bottom" title="PHP"></i>
+                <i className="icon-fa devicon-css3-plain colored" data-toggle="tooltip" data-placement="bottom" title="CSS"></i>            
+                <i className="icon-fa devicon-html5-plain colored" data-toggle="tooltip" data-placement="bottom" title="HTML"></i>
+                <i className="icon-fa devicon-mysql-plain colored" data-toggle="tooltip" data-placement="bottom" title="MySql"></i>
+                <i className="icon-fa devicon-codeigniter-plain colored" data-toggle="tooltip" data-placement="bottom" title="Codeigniter"></i>
+                <i className="icon-fa devicon-bootstrap-plain colored" data-toggle="tooltip" data-placement="bottom" title="Bootstrap"></i>
+                <i className="icon-fa devicon-javascript-plain colored" data-toggle="tooltip" data-placement="bottom" title="Javascript"></i>
+                <i className="icon-fa devicon-jquery-plain colored" data-toggle="tooltip" data-placement="bottom" title="jQuery"></i>
+                <i className="icon-fa devicon-git-plain colored" data-toggle="tooltip" data-placement="bottom" title="Git"></i>
+                <i className="icon-fa devicon-csharp-plain colored" data-toggle="tooltip" data-placement="bottom" title="C#"></i>
+                <i className="icon-fa devicon-microsoftsqlserver-plain colored" data-toggle="tooltip" data-placement="bottom" title="SQL Server"></i>
+                <i className="icon-fa devicon-dotnetcore-plain colored" data-toggle="tooltip" data-placement="bottom" title=".NET Core"></i>
+                <i className="icon-fa devicon-laravel-plain colored" data-toggle="tooltip" data-placement="bottom" title="Laravel"></i>
+                <i className="icon-fa devicon-java-plain colored" data-toggle="tooltip" data-placement="bottom" title="Java"></i>
+                <i className="icon-fa devicon-react-original colored" data-toggle="tooltip" data-placement="bottom" title="ReactJS"></i>
             </div>
             
             <div className="row my-5 col-md-8 mx-auto ">

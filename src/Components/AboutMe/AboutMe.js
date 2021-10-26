@@ -1,6 +1,7 @@
 import React from 'react'
 import './AboutMe.css'
 import HeaderH1 from '../pieces/HeaderH1'
+import Accordion from '../pieces/Accordion'
 
 function AboutMe() {
     
@@ -26,6 +27,45 @@ function AboutMe() {
                     </div>
                     <div className="col-md-7 mb-5 px-4 text-light" data-aos='fade-left'>
                         <h3 className="text-gold mb-3">Organization</h3>
+                        {/* <nav class="accordion arrows">
+                            <Accordion 
+                                header="Developing and Unyealding Learn Technology (DEFAULT)"
+                                content="web developer"
+                                contentBody={["Built web based application for online legalization from lecture research"]}
+                                year="2019 - 2020"
+                                />
+                            <Accordion 
+                                header="Student Legislative Organization"
+                                content="head of computer science fraction and information and communication division coordinator"
+                                contentBody={[
+                                    "Coordinated members of the legislature and members of the information and communication division",
+                                    "Validated and pass the rules in student government organizations",
+                                    "Supervise the student executive organization institutions",
+                                    "Checking and validating activity documents"
+                                ]}
+                                year="2019 - 2020"
+                            />
+                            <Accordion 
+                                header="Indonesian Historical Community (KHI)"
+                                content="photographer"
+                                contentBody={[
+                                    "Documented event activities",
+                                    "Planned and executed event activities"
+                                ]}
+                                year="2017 - 2019"
+                            />
+                            <Accordion 
+                                header="Youth Organization"
+                                content="staff"
+                                contentBody={[
+                                    "planning and implementing activities in the community"
+                                ]}
+                                year="2013 - 2015"
+                            />
+
+                            <input type="radio" name="accordion" id="acc-close" />
+                        </nav> */}
+
                         <div class="accordion">
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="panelsStayOpen-headingOne">

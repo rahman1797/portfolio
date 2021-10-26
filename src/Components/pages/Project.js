@@ -45,7 +45,7 @@ class Project extends React.Component {
         return(
             <>           
                 <div className="header-overflow-project mx-auto" id="journey"><h3>All Projects</h3>{this.props.match.params.type}</div>
-                <div className="container rounded-3 bg-light pt-5">
+                <div className="container project-body pt-5">
                     <div className="container my-4">
                         <div className="row">
                             <div className="col-md-4 d-flex">

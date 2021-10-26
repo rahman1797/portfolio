@@ -23,7 +23,6 @@ function IntroSection() {
                     <h3>Hi !!</h3>
                     <h3>I AM MAULANA RAHMAN NUR</h3>
                     <div className="row">
-                        <h5 className="col-3">I'am a </h5>
                         <h4 className="col-8">{ role }</h4>
                     </div>
                     <a href="#journey" className="btn btn-secondary btn-warning mt-2">Lets see my journey <i className="fas fa-location-arrow"></i></a>

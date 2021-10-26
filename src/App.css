@@ -58,6 +58,7 @@ i.fas.fa-code {
 
 .scroll-x {
   overflow: auto;
+  border-radius: 1.5rem;
   -ms-overflow-style: none; /* for Internet Explorer, Edge */
   scrollbar-width: none; /* for Firefox */
 }
@@ -73,4 +74,15 @@ p {
 
 .loading {
   width: 35px;
+}
+
+.bg-transparent-custom {
+  background: rgba(255, 255, 255, 0.15);
+  color: white;
+  padding: 1.5rem;
+  border-radius: 2rem;
+}
+
+.text-muted-1 {
+  color: rgb(185, 185, 185);
 }
