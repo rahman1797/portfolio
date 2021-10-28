@@ -1,7 +1,6 @@
 import React from 'react'
 import './AboutMe.css'
 import HeaderH1 from '../pieces/HeaderH1'
-import Accordion from '../pieces/Accordion'
 
 function AboutMe() {
     
@@ -17,13 +16,13 @@ function AboutMe() {
                         <p>I am bachelor of <strong>Computer Science</strong> from <strong>State University of Jakarta</strong>.</p>
                     </div>
                     <div className="col-md-5 col-md-push-7 mb-5 row mx-auto" data-aos='fade-left'>
-                        <img className="about-img" src="/portfolio/assets/icons/undraw_graduation.svg" ></img>
+                        <img className="about-img" src="/portfolio/assets/icons/undraw_graduation.svg" alt="graduation" ></img>
                     </div>
                 </div>
                 <div className="row mt-3 flex-column-reverse flex-md-row">
                     {/* ORGANIZATION */}
                     <div className="col-md-5 mb-5 row mx-auto" data-aos='fade-right'>
-                        <img className="about-img" src="/portfolio/assets/icons/undraw_organization.svg" ></img>
+                        <img className="about-img" src="/portfolio/assets/icons/undraw_organization.svg" alt="organization" ></img>
                     </div>
                     <div className="col-md-7 mb-5 px-4 text-light" data-aos='fade-left'>
                         <h3 className="text-gold mb-3">Organization</h3>
@@ -158,7 +157,7 @@ function AboutMe() {
                         <p>In addition, I have an interest in the fields of education and marketplace (but it's still possible to like other fields) and passion for frontend development, UI/UX, SEO, and other things about visualization </p>
                     </div>
                     <div className="col-md-5 row mx-auto" data-aos='fade-left'>
-                        <img className="about-img" src="/portfolio/assets/icons/undraw_personalization.svg" ></img>
+                        <img className="about-img" src="/portfolio/assets/icons/undraw_personalization.svg" alt="personalization"></img>
                     </div>
                 </div>
             </div>

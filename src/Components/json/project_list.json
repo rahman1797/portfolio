@@ -3,9 +3,17 @@
         "slug_url": "online-legalization-information-system",
         "name": "Online legalization information system",
         "desc": "Lecture research about web-based legalization application to make it easier for alumni who are far from campus locations",
-        "path": "/portfolio/assets/images/Administration/Sileg-1.jpg",
+        "path": "/portfolio/assets/images/Administration/sileg-1.jpg",
         "year": 2017,
-        "type": "administration"
+        "type": "administration",
+        "overview": "Legalization is one of the administrative activities needed, especially for alumni. however, for alumni who live far from the campus location, it will be difficult if they have to come to do the legalization. This system aims to make it easier for alumni who want to legalize only with softcopy and documents that have been legalized will be sent to the alumni address",
+        "image" : [
+            "Administration/sileg-1.jpg",
+            "Administration/sileg-2.jpg",
+            "Administration/sileg-3.jpg",
+            "Administration/sileg-4.jpg",
+            "Administration/sileg-5.jpg"
+        ]
     },
     {
         "slug_url": "jamaah",
@@ -13,7 +21,16 @@
         "desc": "Web-based visit administrative application for Pusat Kajian Hadits institution",
         "path": "/portfolio/assets/images/Administration/jamaah-1.jpg",
         "year": 2018,
-        "type": "administration"
+        "type": "administration",
+        "overview": "Changed administration from paper media to software. Besides saving more space, it also saves time. In the visit administration system, the user can record the need to welcome guests and the system will report on several visit records",
+        "image": [
+            "Administration/jamaah-1.jpg",
+            "Administration/jamaah-2.jpg",
+            "Administration/jamaah-3.jpg",
+            "Administration/jamaah-4.jpg",
+            "Administration/jamaah-5.jpg",
+            "Administration/jamaah-6.jpg"
+        ]
     },
     {
         "slug_url": "spot-on",
@@ -21,47 +38,89 @@
         "desc": "A platform for finding and renting places",
         "path": "/portfolio/assets/images/Other/spoton-1.jpg",
         "year": 2018,
-        "type": "other"
+        "type": "other",
+        "overview": "This platform functions as an information intermediary between the owner of the area/place and prospective tenants. From the owner's point of view, it will be easier to share information about the place to be rented, and the tenant can find a suitable place to rent with an illustration of calculating prices.",
+        "image": [
+            "Other/spoton-1.jpg",
+            "Other/spoton-2.jpg",
+            "Other/spoton-3.jpg",
+            "Other/spoton-4.jpg",
+            "Other/spoton-5.jpg",
+            "Other/spoton-6.jpg"
+        ]
     },
     {
         "slug_url": "bookita",
         "name": "Bookita",
         "desc": "A platform for reading fiction and finding books you want to find",
-        "path": "/portfolio/assets/images/Reading/Bookita-1.jpg",
+        "path": "/portfolio/assets/images/Reading/bookita-1.jpg",
         "year": 2019,
-        "type": "reading"
+        "type": "reading",
+        "overview": "This project is a startup competition project that aims to increase interest in reading. On this platform, users can share fiction and non-fiction stories that can be read by anyone",
+        "image": [
+            "Reading/bookita-1.jpg",
+            "Reading/bookita-2.jpg",
+            "Reading/bookita-3.jpg"
+        ]
     },
     {
         "slug_url": "dimerco",
         "name": "Dimerco Hokindo",
         "desc": "Web-based company profile of PT Dimerco Hokindo",
-        "path": "/portfolio/assets/images/CompanyProfile/Dimerco-1.jpg",
+        "path": "/portfolio/assets/images/CompanyProfile/dimerco-1.jpg",
         "year": 2019,
-        "type": "company-profile"
+        "type": "company-profile",
+        "overview": "PT Dimerco Hokindo is a company engaged in the logistics sector",
+        "image": [
+            "CompanyProfile/dimerco-1.jpg",
+            "CompanyProfile/dimerco-2.jpg",
+            "CompanyProfile/dimerco-3.jpg"
+        ]
     },
     {
         "slug_url": "teknonomi",
         "name": "Teknonomi Media",
         "desc": "Web-based news portal for information about technology and economy",
-        "path": "/portfolio/assets/images/News/Teknonomi-1.jpg",
+        "path": "/portfolio/assets/images/News/teknonomi-1.jpg",
         "year": 2019,
-        "type": "news"
+        "type": "news",
+        "overview": "Teknonomi is a news portal that provides information on technology and economic developments",
+        "image": [
+            "News/teknonomi-1.jpg"
+        ]
     },
     {
         "slug_url": "opmawa-management-information-system",
         "name": "Opmawa Management Information System",
         "desc": "OPMAWA organizational resource management website",
-        "path": "/portfolio/assets/images/Management/Sim-1.jpg",
+        "path": "/portfolio/assets/images/Management/sim-1.jpg",
         "year": 2019,
-        "type": "management"
+        "type": "management",
+        "overview": "Management Information System (SIM) is a system that can provide information in the form of reports and displays to business people. The system serves as a media that can be used as a connector for communication between business people. Jakarta State University has a Student Organization which is called a small government laboratory on campus called the Student Government Organization (Opmawa). Opmawa is an organization that has a system that is a reflection of the existing government system in Indonesia. In this research a needs analysis is carried out based on managerial problems in Opmawa which will later be developed into a system that can assist in the data collection and processing of the organizations internal data.",
+        "image": [
+            "Management/sim-1.jpg",
+            "Management/sim-2.jpg",
+            "Management/sim-3.jpg",
+            "Management/sim-4.jpg",
+            "Management/sim-5.jpg",
+            "Management/sim-6.jpg",
+            "Management/sim-7.jpg"
+        ]
     },
     {
         "slug_url": "job",
         "name": "SiKerja",
         "desc": "Web-based job search platform to find available vacancies",
-        "path": "/portfolio/assets/images/Other/Job-1.jpg",
+        "path": "/portfolio/assets/images/Other/job-1.jpg",
         "year": 2019,
-        "type": "other"
+        "type": "other",
+        "overview": "AAA",
+        "image": [
+            "Other/job-1.jpg",
+            "Other/job-2.jpg",
+            "Other/job-3.jpg",
+            "Other/job-4.jpg"
+        ]
     },
     {
         "slug_url": "epicor-support",
@@ -69,23 +128,46 @@
         "desc": "Developing and customize Epicor ERP function",
         "path": "/portfolio/assets/images/Management/epicor-1.jpg",
         "year": 2020,
-        "type": "management"
+        "type": "management",
+        "overview": "Epicor is end-to-end applications and B2B SaaS thats provides enterprise resource planning (ERP), customer relationship management (CRM), supply chain management (SCM), and human capital management (HCM) software to business customers in both software as a service (SaaS) and on-premises deployment models.",
+        "image": [
+            "Management/epicor-1.jpg"
+        ]
     },
     {
         "slug_url": "eska",
         "name": "Eska Unggul Indonesia",
         "desc": "Web-based company profile and publication of Eska Unggul Indonesia",
-        "path": "/portfolio/assets/images/CompanyProfile/Eska-1.jpg",
+        "path": "/portfolio/assets/images/CompanyProfile/eska-1.jpg",
         "year": 2021,
-        "type": "company-profile"
+        "type": "company-profile",
+        "overview": "'Eska Unggul Indonesia' is a foundation located in Brebes Regency, Indonesia. 'Eska Unggul Indonesia' has a goal in village development with development and maintenance programs in the fields of education, economy, health, and social. On this website, consists of information about the foundation's activities and vacancies as volunteers",
+        "image": [
+            "CompanyProfile/eska-1.jpg",
+            "CompanyProfile/eska-2.jpg",
+            "CompanyProfile/eska-3.jpg",
+            "CompanyProfile/eska-4.jpg",
+            "CompanyProfile/eska-5.jpg",
+            "CompanyProfile/eska-6.jpg",
+            "CompanyProfile/eska-7.jpg",
+            "CompanyProfile/eska-8.jpg",
+            "CompanyProfile/eska-9.jpg"
+        ]
     },
     {
         "slug_url": "rsis",
         "name": "Recruitment Selection Information System (RSIS)",
         "desc": "Automatic recruitment selection system",
-        "path": "/portfolio/assets/images/Management/Rsis-1.jpg",
+        "path": "/portfolio/assets/images/Management/rsis-1.jpg",
         "year": 2021,
-        "type": "management"
+        "type": "management",
+        "overview": "",
+        "image": [
+            "Management/rsis-1.jpg",
+            "Management/rsis-2.jpg",
+            "Management/rsis-3.jpg",
+            "Management/rsis-4.jpg"
+        ]
     },
     {
         "slug_url": "capa",
@@ -93,7 +175,9 @@
         "desc": "Corrective and preventive action administration system",
         "path": "/portfolio/assets/images/Other/notfound.jpg",
         "year": 2021,
-        "type": "administration"
+        "type": "administration",
+        "overview": "",
+        "image": null
     },
     {
         "slug_url": "maintenance-hp",
@@ -101,14 +185,22 @@
         "desc": "Administrative system for resource use and valuation ",
         "path": "/portfolio/assets/images/Administration/hp-1.jpg",
         "year": 2021,
-        "type": "administration"
+        "type": "administration",
+        "overview": "",
+        "image": [
+            "Administration/hp-1.jpg"
+        ]
     },
     {
         "slug_url": "chaka",
         "name": "CHAKA",
         "desc": "Web-based Human Resources (HR) System",
-        "path": "/portfolio/assets/images/Management/Chaka-1.jpg",
+        "path": "/portfolio/assets/images/Management/chaka-1.jpg",
         "year": 2021,
-        "type": "management"
+        "type": "management",
+        "overview": "",
+        "image": [
+            "Management/chaka-1.jpg"
+        ]
     }
 ]

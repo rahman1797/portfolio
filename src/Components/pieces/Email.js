@@ -60,7 +60,7 @@ export const Email = () => {
         <textarea id="message" className="form-control" rows="5" name="message" />
       </div>
       <div className="form-group mx-auto">
-        <button className={`btn btn-info my-4 w-100 ${send ? 'disabled' : ''}`} type="submit"><img className={`loading ${send ? '' : 'd-none'}`} src="/portfolio/assets/icons/loading.svg" /> {send ? 'Sending...' : 'Send'}</button>
+        <button className={`btn btn-info my-4 w-100 ${send ? 'disabled' : ''}`} type="submit"><img className={`loading ${send ? '' : 'd-none'}`} src="/portfolio/assets/icons/loading.svg" alt="loading" /> {send ? 'Sending...' : 'Send'}</button>
       </div>
       
     </form>

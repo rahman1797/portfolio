@@ -5,7 +5,7 @@ function Card(props) {
     return (
         <>
             <li className="card-item mb-3">
-                <Link to={ props.url }>
+                <Link to={ props.url } className="mx-auto  w-100">
                     <div className="card-item-link">
                         <figure className="card-item-pic" data-label={ props.label }>
                             <img src={ props.src } className="card-item-img" alt={ props.text }></img>

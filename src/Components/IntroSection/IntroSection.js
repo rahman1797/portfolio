@@ -28,7 +28,7 @@ function IntroSection() {
                     <a href="#journey" className="btn btn-secondary btn-warning mt-2">Lets see my journey <i className="fas fa-location-arrow"></i></a>
                 </div>
                 <div className="col-md-6 row m-auto">
-                    <img className="intro-img" src="/portfolio/assets/icons/undraw_hello.svg"></img>
+                    <img className="intro-img" src="/portfolio/assets/icons/undraw_hello.svg" alt=""></img>
                 </div>
             </div>
             <div className="intro-section-bottom">
