@@ -35,6 +35,7 @@ function CarouselSlick(props) {
 
     return (
         <div className="my-5">
+            { (imageList.length > 3) ?
             <Slider {...settings}>
                 {
                     imageList.map( obj => 
@@ -44,6 +45,17 @@ function CarouselSlick(props) {
                     )
                 }
             </Slider>
+            : 
+            <div className="row">
+            {
+                imageList.map( obj => 
+                    <div className="col-md-4 col-6 mb-3 mx-auto">
+                        <img className=" overview-image-3" src={`/portfolio/assets/images/${obj}` } alt={obj} />
+                    </div>
+                ) 
+            }
+            </div>
+            }
         </div>
     )
 }

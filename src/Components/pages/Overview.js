@@ -33,7 +33,7 @@ class Overview extends React.Component {
         
         return(
             <>           
-                <div className="header-overflow-project mx-auto" id="journey"><h3>Projects overview</h3>{this.props.match.params.slug_url}</div>
+                <div className="header-overflow-project mx-auto" id="journey"><h3>Projects overview</h3>{this.state.data[0].name}</div>
                 <div className="container project-body pt-5">
                     <div className="container my-4">
                         <div className="row">

@@ -114,7 +114,7 @@
         "path": "/portfolio/assets/images/Other/job-1.jpg",
         "year": 2019,
         "type": "other",
-        "overview": "AAA",
+        "overview": "SiKerja is a trial website to get a list of jobs available on the jobstreet.com website",
         "image": [
             "Other/job-1.jpg",
             "Other/job-2.jpg",
@@ -161,7 +161,7 @@
         "path": "/portfolio/assets/images/Management/rsis-1.jpg",
         "year": 2021,
         "type": "management",
-        "overview": "",
+        "overview": "Information system to assist the recruitment and selection process of prospective employees such as publication of job advertisements, psychological tests, to selection of applicant data",
         "image": [
             "Management/rsis-1.jpg",
             "Management/rsis-2.jpg",
@@ -176,8 +176,10 @@
         "path": "/portfolio/assets/images/Other/notfound.jpg",
         "year": 2021,
         "type": "administration",
-        "overview": "",
-        "image": null
+        "overview": "Information systems for taking corrective and preventive actions consist of improvements to organizational processes that are taken to eliminate the causes of nonconformities or other undesirable situations.",
+        "image": [
+            "Other/notfound.jpg"
+        ]
     },
     {
         "slug_url": "maintenance-hp",
@@ -186,7 +188,7 @@
         "path": "/portfolio/assets/images/Administration/hp-1.jpg",
         "year": 2021,
         "type": "administration",
-        "overview": "",
+        "overview": "Information system for recording the use of data sources, evaluating employee performance, ticketing issues, etc.",
         "image": [
             "Administration/hp-1.jpg"
         ]
@@ -198,7 +200,7 @@
         "path": "/portfolio/assets/images/Management/chaka-1.jpg",
         "year": 2021,
         "type": "management",
-        "overview": "",
+        "overview": "Chaka is a management system for human resources (HR) in carrying out work such as matters related to employment, finance, time management, organization, etc.",
         "image": [
             "Management/chaka-1.jpg"
         ]
