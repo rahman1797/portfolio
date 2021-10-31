@@ -6,7 +6,7 @@ import Contact from '../Contact/Contact'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import Project from './Project'
 import WorkExperience from '../WorkExperience/WorkExperience'
-import Footer from '../Footer/Footer'
+// import Footer from '../Footer/Footer'
 import Overview from './Overview'
 
 function Home() {
@@ -21,7 +21,7 @@ function Home() {
                 <Route path="/portfolio/project/:type" component={Project} exact />
                 <Route path="/portfolio/project/overview/:slug_url" component={Overview} exact />
                 <Contact />
-                <Footer />
+                {/* <Footer /> */}
             </>
         </Router>
     )
