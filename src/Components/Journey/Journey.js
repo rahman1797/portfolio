@@ -30,7 +30,7 @@ function Journey() {
         <div className="container text-center text-light" id="journey">
             <i className="fas fa-code"></i>
             <h1 className="text-gold">My Journey</h1>
-            <h5 className="text-blue">There is an activity that i've done since 2015 (start college) to now</h5>
+            <h5 className="text-blue">There are a few activities that i've done since 2015 (start college) to present</h5>
             <div className="text-muted-1 mb-3">Technology I've used</div>
             <div className="scroll-x alert bg-light col-md-10 mx-auto">
                 <i className="icon-fa devicon-php-plain colored" data-toggle="tooltip" data-placement="bottom" title="PHP"></i>

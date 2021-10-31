@@ -26,45 +26,6 @@ function AboutMe() {
                     </div>
                     <div className="col-md-7 mb-5 px-4 text-light" data-aos='fade-left'>
                         <h3 className="text-gold mb-3">Organization</h3>
-                        {/* <nav class="accordion arrows">
-                            <Accordion 
-                                header="Developing and Unyealding Learn Technology (DEFAULT)"
-                                content="web developer"
-                                contentBody={["Built web based application for online legalization from lecture research"]}
-                                year="2019 - 2020"
-                                />
-                            <Accordion 
-                                header="Student Legislative Organization"
-                                content="head of computer science fraction and information and communication division coordinator"
-                                contentBody={[
-                                    "Coordinated members of the legislature and members of the information and communication division",
-                                    "Validated and pass the rules in student government organizations",
-                                    "Supervise the student executive organization institutions",
-                                    "Checking and validating activity documents"
-                                ]}
-                                year="2019 - 2020"
-                            />
-                            <Accordion 
-                                header="Indonesian Historical Community (KHI)"
-                                content="photographer"
-                                contentBody={[
-                                    "Documented event activities",
-                                    "Planned and executed event activities"
-                                ]}
-                                year="2017 - 2019"
-                            />
-                            <Accordion 
-                                header="Youth Organization"
-                                content="staff"
-                                contentBody={[
-                                    "planning and implementing activities in the community"
-                                ]}
-                                year="2013 - 2015"
-                            />
-
-                            <input type="radio" name="accordion" id="acc-close" />
-                        </nav> */}
-
                         <div class="accordion">
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="panelsStayOpen-headingOne">
@@ -153,8 +114,8 @@ function AboutMe() {
                     {/* PERSONALITY */}
                     <div className="col-md-7 mb-5 px-4" data-aos='fade-right'>
                         <h3 className="text-gold">Personality and Interests</h3>
-                        <p>I have a personality that likes to learn new things and challenges. My experience in organization makes me easy to adapt, fast learner, respects time, and can work independently or in a team. So, pressure is not an easy thing to make me give up because I love what I do</p>
-                        <p>In addition, I have an interest in the fields of education and marketplace (but it's still possible to like other fields) and passion for frontend development, UI/UX, SEO, and other things about visualization </p>
+                        <p>My personality is love learning something new and challenging. My experiences in organization made me easy to adapt, fast learning, good time management, high sense of ownership, and work as a team or personal. However pressure is not the biggest thing that makes me giving up or feeling hopeless. Because I feel like I'm doing what's mine, i'll try my best that i can</p>
+                        <p>In addition, I have an interest in the fields of education and marketplace (but  still possible to like another fields) and passion for frontend development, UI/UX, SEO, and other things about visualization</p>
                     </div>
                     <div className="col-md-5 row mx-auto" data-aos='fade-left'>
                         <img className="about-img" src="/portfolio/assets/icons/undraw_personalization.svg" alt="personalization"></img>

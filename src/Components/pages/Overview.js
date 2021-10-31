@@ -19,6 +19,7 @@ class Overview extends React.Component {
             data: Data.filter(obj => 
                 (this.props.match.params.slug_url) ? obj.slug_url===this.props.match.params.slug_url : "No overview")
         });
+        window.location.href = '#journey';
     }
 
     typeFilter = (event) => {

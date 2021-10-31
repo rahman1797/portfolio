@@ -21,6 +21,7 @@ class Project extends React.Component {
             data: Data.filter(obj => 
                 (this.props.match.params.type) ? obj.type===this.props.match.params.type : obj).reverse()
         });
+        window.location.href = '#journey';
     }
 
     searchProject = (event) => {

@@ -18,7 +18,7 @@ function WorkExperience(props) {
                         <ul>
                             <li>Customized Epicor ERP (Enterprise Resource Planning) system form, report, and function</li>
                             <li>Built web based application for HR (Human Resources), recruitment, administration, and report system</li>
-                            <li>Created learning documentation by text / video</li>
+                            <li>Created documentation for trainings by text / video</li>
                         </ul>
                     </p>
                     <small>at Inti Talenta Teknologi</small>
@@ -30,7 +30,7 @@ function WorkExperience(props) {
                     </div>
                     <p className="mb-1">
                         <ul>
-                            <li>Create and developing web based application</li>
+                            <li>Created and developed web based application</li>
                         </ul>
                     </p>
                     <small>at Pusat Kajian Hadis (Internship)</small>
