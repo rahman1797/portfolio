@@ -72,6 +72,10 @@ p {
   color: var(--primary);
 }
 
+div > ul {
+  font-size: 18px;
+}
+
 .loading {
   width: 35px;
 }

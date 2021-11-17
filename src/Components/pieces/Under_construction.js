@@ -17,7 +17,7 @@ function Under_construction() {
                     <h3 className="mt-3 text-center">Sorry, this page is under construction</h3>
                 </div>
                 <Link className="btn btn-warning mt-5 col-md-6 col-9 mx-auto mb-2" to="/portfolio" >
-                    <i class="fa fa-long-arrow-left" aria-hidden="true"></i> Back to my journey
+                    <i className="fa fa-long-arrow-left" aria-hidden="true"></i> Back to my journey
                 </Link>
             </div>
             

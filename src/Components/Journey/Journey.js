@@ -4,27 +4,26 @@ import '../Card/Card.css'
 import './Journey.css'
 import Card from '../Card/Card'
 import { Link } from 'react-router-dom'
-import Data from '../json/project_list.json';
+import { connect } from 'react-redux'
 
-const data = Data;
-const countMatchKey = (key) => {
-    let count = 0;
-    data.forEach(element => {
-        if(element.type === key){
-            count++;
-        }
-    });
-    return count;
-}
+function Journey(props) {
 
-function Journey() {
-
-    const [administration, setAdministration] = useState(countMatchKey('administration'))
-    const [management, setManagement] = useState(countMatchKey('management'))
-    const [reading, setReading] = useState(countMatchKey('reading'))
-    const [other, setOther] = useState(countMatchKey('other'))
-    const [news, setNews] = useState(countMatchKey('news'))
-    const [companyProfile, setCompanyProfile] = useState(countMatchKey('company-profile'))
+    const countMatchKey = (key) => {
+        let count = 0;
+        props.dataRedux.forEach(element => {
+            if(element.type === key){
+                count++;
+            }
+        });
+        return count;
+    }
+    
+    const [administration] = useState(countMatchKey('administration'))
+    const [management] = useState(countMatchKey('management'))
+    const [reading] = useState(countMatchKey('reading'))
+    const [other] = useState(countMatchKey('other'))
+    const [news] = useState(countMatchKey('news'))
+    const [companyProfile] = useState(countMatchKey('company-profile'))
 
     return (
         <div className="container text-center text-light" id="journey">
@@ -169,4 +168,10 @@ function Journey() {
     )
 }
 
-export default Journey
+const mapStateToProps = (state) => {
+    return {
+        dataRedux: state.data
+    }
+}
+
+export default connect(mapStateToProps)(Journey)

@@ -1,7 +1,7 @@
 import React from "react";
+import { connect } from "react-redux";
 import { Link } from "react-router-dom";
 import Card from "../Card/Card";
-import Data from '../json/project_list.json';
 import './Project.css'
 
 class Project extends React.Component {
@@ -9,17 +9,17 @@ class Project extends React.Component {
     constructor(props){
         super(props);
         this.state = {
-            data: Data,
+            data: this.props.dataRedux,
             projectList_backup: []
         }
     }
 
     componentDidMount(){
         this.setState({
-            projectList_backup: Data.filter(obj => 
-                (this.props.match.params.type) ? obj.type===this.props.match.params.type : obj).reverse(),
-            data: Data.filter(obj => 
-                (this.props.match.params.type) ? obj.type===this.props.match.params.type : obj).reverse()
+            projectList_backup: this.props.dataRedux.filter(obj => 
+                (this.props.match.params.type) ? obj.type === this.props.match.params.type : obj).reverse(),
+            data: this.props.dataRedux.filter(obj => 
+                (this.props.match.params.type) ? obj.type === this.props.match.params.type : obj).reverse()
         });
         window.location.href = '#journey';
     }
@@ -34,10 +34,10 @@ class Project extends React.Component {
     typeFilter = (event) => {
         this.props.history.push(`/portfolio/project/${event.target.value}`);
         this.setState({
-            data: Data.filter(obj => 
-                (event.target.value) ? obj.type===event.target.value : obj).reverse(),
-            projectList_backup: Data.filter(obj => 
-                (event.target.value) ? obj.type===event.target.value : obj).reverse()
+            data: this.props.dataRedux.filter(obj => 
+                (event.target.value) ? obj.type === event.target.value : obj).reverse(),
+            projectList_backup: this.props.dataRedux.filter(obj => 
+                (event.target.value) ? obj.type === event.target.value : obj).reverse()
         });
     }
 
@@ -51,7 +51,7 @@ class Project extends React.Component {
                         <div className="row">
                             <div className="col-md-4 d-flex">
                                 <Link className="btn btn-warning col-md-12 m-auto mb-2" to="/portfolio" >
-                                    <i class="fa fa-long-arrow-left" aria-hidden="true"></i> Back to my journey
+                                    <i className="fa fa-long-arrow-left" aria-hidden="true"></i> Back to my journey
                                 </Link>
                             </div>
                             <div className="col-md-8 d-flex row m-auto">
@@ -96,7 +96,7 @@ class Project extends React.Component {
                     </div>
                     <div className="row">
                         <Link className="btn btn-warning mx-auto mb-3 col-md-4 col-9" to="/portfolio" >
-                            <i class="fa fa-long-arrow-left" aria-hidden="true"></i> Back to my journey
+                            <i className="fa fa-long-arrow-left" aria-hidden="true"></i> Back to my journey
                         </Link>
                     </div>
                                         
@@ -112,4 +112,10 @@ class Project extends React.Component {
 
 }
 
-export default Project
+const mapStateToProps = (state) => {
+    return {
+        dataRedux: state.data
+    }
+}
+
+export default connect(mapStateToProps)(Project)

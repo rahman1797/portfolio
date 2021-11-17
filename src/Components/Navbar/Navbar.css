@@ -86,20 +86,22 @@
       display: flex;
       flex-direction: column;
       width: 100%;
-      height: 90vh;
+      height: 95vh;
       position: absolute;
       top: 80px;
       left: -100%;
-      opacity: 1;
+      /* opacity: 1; */
       transition: all 0.5s ease;
     }
 
     .nav-item {
-      height: 100vh;
+      height: 10vh;
+      margin-top: 40px;
+      font-size: 2rem;
     }
   
     .nav-menu.active {
-      background: #242222;
+      background:rgb(28, 27, 27);
       left: 0;
       opacity: 1;
       transition: all 0.5s ease;
@@ -114,9 +116,9 @@
     }
   
     .nav-links:hover {
-      background-color: #fff;
-      color: #242424;
-      border-radius: 0;
+      background-color: rgb(37, 37, 37);
+      color: white;
+      border-radius: 1rem;
     }
   
     .navbar-logo {

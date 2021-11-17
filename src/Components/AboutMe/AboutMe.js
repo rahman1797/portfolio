@@ -26,39 +26,39 @@ function AboutMe() {
                     </div>
                     <div className="col-md-7 mb-5 px-4 text-light" data-aos='fade-left'>
                         <h3 className="text-gold mb-3">Organization</h3>
-                        <div class="accordion">
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
+                        <div className="accordion">
+                            <div className="accordion-item">
+                                <h2 className="accordion-header" id="panelsStayOpen-headingOne">
+                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
                                     Developing and Unyealding Learn Technology (DEFAULT)
                                 </button>
                                 </h2>
-                                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
-                                    <div class="accordion-body">
-                                        <div class="d-flex w-100 justify-content-between text-dark">
-                                            <h5 class="mb-1">web developer</h5>
+                                <div id="panelsStayOpen-collapseOne" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
+                                    <div className="accordion-body">
+                                        <div className="d-flex w-100 justify-content-between text-dark">
+                                            <h5 className="mb-1">web developer</h5>
                                             <small>2019 - 2020</small>
                                         </div>
-                                        <ul class="my-1 text-dark">
+                                        <ul className="my-1 text-dark">
                                             <li>Built web based application for online legalization from lecture research</li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                            <div className="accordion-item">
+                                <h2 className="accordion-header" id="panelsStayOpen-headingTwo">
+                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
                                     Student Legislative Organization
                                 </button>
                                 </h2>
-                                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
-                                    <div class="accordion-body">
+                                <div id="panelsStayOpen-collapseTwo" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                                    <div className="accordion-body">
 
-                                        <div class="d-flex w-100 justify-content-between text-dark">
-                                            <h6 class="mb-1">head of computer science fraction and<br/> information and communication division coordinator</h6>
+                                        <div className="d-flex w-100 justify-content-between text-dark">
+                                            <h6 className="mb-1">head of computer science fraction and<br/> information and communication division coordinator</h6>
                                             <small>2019 - 2020</small>
                                         </div>
-                                        <ul class="my-1 text-dark">
+                                        <ul className="my-1 text-dark">
                                             <li>Coordinated members of the legislature and members of the information and communication division</li>
                                             <li>Validated and pass the rules in student government organizations</li>
                                             <li>Supervise the student executive organization institutions</li>
@@ -68,39 +68,39 @@ function AboutMe() {
                                     </div>
                                 </div>
                             </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                            <div className="accordion-item">
+                                <h2 className="accordion-header" id="panelsStayOpen-headingThree">
+                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
                                     Indonesian Historical Community (KHI)
                                 </button>
                                 </h2>
-                                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
-                                <div class="accordion-body">
-                                    <div class="d-flex w-100 justify-content-between text-dark">
-                                            <h6 class="mb-1">photographer</h6>
+                                <div id="panelsStayOpen-collapseThree" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                                <div className="accordion-body">
+                                    <div className="d-flex w-100 justify-content-between text-dark">
+                                            <h6 className="mb-1">photographer</h6>
                                             <small>2017 - 2019</small>
                                         </div>
-                                        <ul class="my-1 text-dark">
+                                        <ul className="my-1 text-dark">
                                             <li>Documented event activities</li>
                                             <li>Planned and executed event activities</li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="panelsStayOpen-headingFour">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                            <div className="accordion-item">
+                                <h2 className="accordion-header" id="panelsStayOpen-headingFour">
+                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
                                     Youth Organizations
                                 </button>
                                 </h2>
-                                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
-                                <div class="accordion-body">
+                                <div id="panelsStayOpen-collapseFour" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+                                <div className="accordion-body">
 
-                                    <div class="d-flex w-100 justify-content-between text-dark">
-                                            <h6 class="mb-1">staff</h6>
+                                    <div className="d-flex w-100 justify-content-between text-dark">
+                                            <h6 className="mb-1">staff</h6>
                                             <small>2013 - 2015</small>
                                         </div>
-                                        <ul class="my-1 text-dark">
+                                        <ul className="my-1 text-dark">
                                             <li>planning and implementing activities in the community</li>
                                         </ul>
                                     </div>

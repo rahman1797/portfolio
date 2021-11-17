@@ -47,16 +47,16 @@ export const Email = () => {
   return (
     <form ref={form} onSubmit={sendEmail}>
       <div className="form-group my-2">
-        <label className="form-label" for="name">Name:</label>
+        <label className="form-label" htmlFor="name">Name:</label>
         <input id="name" type="text" name="name" className="form-control" placeholder="Enter your name" />
       </div>
       <div className="form-group my-2">
-        <label className="form-label" for="contact">Email / Phone:</label>
+        <label className="form-label" htmlFor="contact">Email / Phone:</label>
           <input id="contact" type="text" name="contact" className="form-control" placeholder="Enter email/phone" />
           <small className="text-gold">I'll never share you email/phone to other</small>
         </div>
       <div className="form-group my-2">
-        <label className="form-label" for="message">Message:</label>
+        <label className="form-label" htmlFor="message">Message:</label>
         <textarea id="message" className="form-control" rows="5" name="message" />
       </div>
       <div className="form-group mx-auto">
