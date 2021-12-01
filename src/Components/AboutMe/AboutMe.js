@@ -37,7 +37,7 @@ function AboutMe() {
                                     <div className="accordion-body">
                                         <div className="d-flex w-100 justify-content-between text-dark">
                                             <h5 className="mb-1">web developer</h5>
-                                            <small>2019 - 2020</small>
+                                            <small>2017 - 2019</small>
                                         </div>
                                         <ul className="my-1 text-dark">
                                             <li>Built web based application for online legalization from lecture research</li>
@@ -56,7 +56,7 @@ function AboutMe() {
 
                                         <div className="d-flex w-100 justify-content-between text-dark">
                                             <h6 className="mb-1">head of computer science fraction and<br/> information and communication division coordinator</h6>
-                                            <small>2019 - 2020</small>
+                                            <small>2017 - 2019</small>
                                         </div>
                                         <ul className="my-1 text-dark">
                                             <li>Coordinated members of the legislature and members of the information and communication division</li>

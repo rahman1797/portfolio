@@ -12,7 +12,7 @@ function WorkExperience(props) {
                 <div className="list-group-item flex-column bg-transparent-custom">
                     <div className="d-flex w-100 justify-content-between">
                     <h5 className="mb-1">Technical Consultant (Fullstack Developer)</h5>
-                    <small>February 2020 - Now</small>
+                    <small>April 2020 - Now</small>
                     </div>
                     <div className="mb-1">
                         <ul>
