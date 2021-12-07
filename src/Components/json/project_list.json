@@ -190,7 +190,10 @@
         "type": "administration",
         "overview": "Information system for recording the use of data sources, evaluating employee performance, ticketing issues, etc.",
         "image": [
-            "Administration/hp-1.jpg"
+            "Administration/hp-1.jpg",
+            "Administration/hp-2.jpg",
+            "Administration/hp-3.jpg",
+            "Administration/hp-4.jpg"
         ]
     },
     {
@@ -203,6 +206,22 @@
         "overview": "Chaka is a management system for human resources (HR) in carrying out work such as matters related to employment, finance, time management, organization, etc.",
         "image": [
             "Management/chaka-1.jpg"
+        ]
+    },
+    {
+        "slug_url": "clone-tandatanganio",
+        "name": "Clone - Tandatangan.io",
+        "desc": "Clone and re-design UI/UX from existing website",
+        "path": "/portfolio/assets/images/Other/ttdio-1.jpg",
+        "year": 2021,
+        "type": "other",
+        "overview": "Clone Tandatangan.io is a cloning and re-design project to make other UI/UX from existing website",
+        "image": [
+            "Other/ttdio-1.jpg",
+            "Other/ttdio-2.jpg",
+            "Other/ttdio-3.jpg",
+            "Other/ttdio-4.jpg",
+            "Other/ttdio-5.jpg"
         ]
     }
 ]

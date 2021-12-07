@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import Slider from 'react-slick'
 import './CarouselSlick.css'
 
@@ -6,11 +7,12 @@ function CarouselSlick(props) {
 
     const settings = {
         dots: true,
+        dotsClass: "slick-dots slick-thumb",
         lazyLoad: true,
         className: "center",
         centerMode: true,
         infinite: true,
-        centerPadding: "90px",
+        centerPadding: "-0px",
         slidesToShow: 3,
         speed: 500,
         responsive: [
@@ -40,7 +42,7 @@ function CarouselSlick(props) {
                 {
                     imageList.map( obj => 
                         <div>
-                            <img className="mx-auto overview-image" src={`/portfolio/assets/images/${obj}` } alt={obj} />
+                            <img className="overview-image" src={`/portfolio/assets/images/${obj}` } alt={obj} />
                         </div>
                     )
                 }
@@ -50,7 +52,7 @@ function CarouselSlick(props) {
             {
                 imageList.map( obj => 
                     <div className="col-md-4 col-6 mb-3 mx-auto">
-                        <img className=" overview-image-3" src={`/portfolio/assets/images/${obj}` } alt={obj} />
+                        <img className="overview-image-3" src={`/portfolio/assets/images/${obj}` } alt={obj} />
                     </div>
                 ) 
             }
