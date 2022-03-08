@@ -223,5 +223,28 @@
             "Other/ttdio-4.jpg",
             "Other/ttdio-5.jpg"
         ]
+    },
+    {
+        "slug_url": "wedding-digital-invitation",
+        "name": "Wedding Digital Invitation",
+        "desc": "Wedding Digital Invitation",
+        "path": "/portfolio/assets/images/Other/wedding1.png",
+        "year": 2021,
+        "type": "other",
+        "overview": "Wedding Digital Invitation",
+        "image": [
+            "Other/wedding1.png",
+            "Other/wedding2.png",
+            "Other/wedding3.png",
+            "Other/wedding4.png",
+            "Other/wedding5.png",
+            "Other/wedding6.png",
+            "Other/wedding7.png",
+            "Other/wedding8.png",
+            "Other/wedding9.png",
+            "Other/wedding10.png",
+            "Other/wedding11.png",
+            "Other/wedding12.png"
+        ]
     }
 ]
