@@ -6,23 +6,22 @@ import { GraduationCap, Award, Users } from 'lucide-react';
 export function Education() {
   const organizations = [
     {
-      name: 'BEM (Badan Eksekutif Mahasiswa)',
+      name: 'LLM (Lembaga Legislatif Mahasiswa)',
       position: 'Staff Departemen',
       responsibilities: [
-        'Mengorganisir dan mengelola acara kemahasiswaan tingkat universitas',
-        'Berkoordinasi dengan berbagai departemen untuk menjalankan program kerja',
-        'Membantu dalam pengembangan soft skills dan leadership mahasiswa',
-        'Mengelola administrasi dan dokumentasi kegiatan organisasi'
+        'Mengorganisir dan mengelola acara kemahasiswaan tingkat jurusan',
+        'Berkoordinasi dengan berbagai departemen BEM (Badan Eksekutif Mahasiswa) untuk menjalankan program kerja',
+        'Membantu BEM (Badan Eksekutif Mahasiswa) dalam mengelola kegiatan kemahasiswaan',
+        'Memeriksa administrasi dan dokumentasi kegiatan organisasi'
       ]
     },
     {
       name: 'DEFAULT',
       position: 'Anggota Aktif',
       responsibilities: [
-        'Berpartisipasi dalam kegiatan pengembangan teknologi dan inovasi',
+        'Berpartisipasi dalam kegiatan pengembangan teknologi dan inovasi di bidang IT (khusus nya pengembangan aplikasi berbasis web)',
         'Mengadakan workshop dan seminar terkait IT dan programming',
-        'Berbagi pengetahuan dan pengalaman dengan sesama anggota',
-        'Berkontribusi dalam proyek-proyek teknologi kampus'
+        'Berkontribusi dalam proyek-proyek penelitian dosen terkait pengembangan teknologi di kampus'
       ]
     }
   ];

@@ -1,0 +1,185 @@
+'use client'
+
+import { useState } from 'react';
+import { motion } from 'motion/react';
+import { ExternalLink, Github, Music, Camera, Gamepad2, Book } from 'lucide-react';
+import Image from 'next/image';
+
+import popsImage from '@/app/assets/img/pops.png';
+
+export function ProjectsAndHobbies() {
+
+  const [activeTab, setActiveTab] = useState('projects');
+
+  const projects = [
+    {
+      title: 'Pusat Operasi Penurunan Stunting (POPS)',
+      description: 'Website for the Pusat Operasi Penurunan Stunting (POPS) to manage the operations of the center.',
+      image: popsImage,
+      tags: ['PHP', 'Laravel', 'MySQL', 'Git'],
+      link: 'https://popskluwut.id/',
+      github: '#'
+    },
+    {
+      title: 'Analytics Dashboard',
+      description: 'Real-time analytics dashboard for monitoring business metrics and KPIs. Features interactive charts and data visualization using Recharts.',
+      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkYXNoYm9hcmQlMjBhbmFseXRpY3N8ZW58MXx8fHwxNzYxNDU2OTY5fDA&ixlib=rb-4.1.0&q=80&w=1080',
+      tags: ['React', 'ASP.NET Core', 'SQL', 'Recharts'],
+      link: '#',
+      github: '#'
+    },
+    {
+      title: 'Mobile App Backend',
+      description: 'RESTful API backend for mobile application with authentication, user management, and real-time notifications. Deployed on cloud infrastructure.',
+      image: 'https://images.unsplash.com/photo-1618761714954-0b8cd0026356?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjBpbnRlcmZhY2V8ZW58MXx8fHwxNzYxNDU3NzU0fDA&ixlib=rb-4.1.0&q=80&w=1080',
+      tags: ['C#', 'ASP.NET Core', 'JWT', 'Azure'],
+      link: '#',
+      github: '#'
+    },
+    {
+      title: 'Portfolio Website Builder',
+      description: 'Dynamic portfolio website builder with customizable templates and themes. Users can create and deploy their portfolio in minutes.',
+      image: 'https://images.unsplash.com/photo-1593720213681-e9a8778330a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3ZWIlMjBkZXZlbG9wbWVudCUyMGNvZGluZ3xlbnwxfHx8fDE3NjE0NDkxMzB8MA&ixlib=rb-4.1.0&q=80&w=1080',
+      tags: ['React', 'PHP', 'MySQL', 'Tailwind'],
+      link: '#',
+      github: '#'
+    }
+  ];
+
+  const hobbies = [
+    {
+      icon: Music,
+      name: 'Music',
+      description: 'Playing guitar and exploring different music genres',
+      color: 'blue'
+    },
+    {
+      icon: Camera,
+      name: 'Photography',
+      description: 'Capturing moments and exploring creative photography',
+      color: 'purple'
+    },
+    {
+      icon: Gamepad2,
+      name: 'Gaming',
+      description: 'Enjoying strategic and adventure games',
+      color: 'pink'
+    },
+    {
+      icon: Book,
+      name: 'Reading',
+      description: 'Reading tech articles and science fiction books',
+      color: 'green'
+    }
+  ];
+
+  return (
+    <section id="projects" className="py-20 px-4 max-w-6xl mx-auto">
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+        viewport={{ once: true }}
+      >
+        <h2 className="text-3xl md:text-4xl text-center mb-4">
+          Projects <span className="bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">& Hobbies</span>
+        </h2>
+        <p className="text-center text-muted-foreground mb-12">My work and interests</p>
+
+        <div className="w-full flex flex-col gap-5">
+
+          <div className="flex w-max mx-auto bg-white/20 px-3 py-2 rounded-full backdrop-blur border-border hover:border-blue-500/50 transition-all">
+            <button className={`text-white px-4 py-2 rounded-full cursor-pointer ${activeTab === 'projects' ? 'bg-blue-500' : ''}`} onClick={() => setActiveTab('projects')}>My Projects</button>
+            <button className={`text-white px-4 py-2 rounded-full cursor-pointer ${activeTab === 'hobbies' ? 'bg-purple-500' : ''}`} onClick={() => setActiveTab('hobbies')}>My Hobbies</button>
+          </div>
+
+          <div className={`${activeTab === 'projects' ? 'block' : 'hidden'}`}>
+            <div className="grid md:grid-cols-2 gap-6">
+              {projects.map((project, index) => (
+                <motion.div
+                  key={project.title}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ delay: index * 0.1, duration: 0.6 }}
+                  viewport={{ once: true }}
+                >
+                  <div className="overflow-hidden bg-white/5 rounded-2xl backdrop-blur border-border hover:border-blue-500/50 transition-all h-full group">
+                    <div className="relative overflow-hidden aspect-video">
+                      <Image
+                        src={project.image}
+                        alt={project.title}
+                        className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+                        width={500}
+                        height={500}
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
+                    </div>
+                    
+                    <div className="p-6">
+                      <h3 className="mb-2 text-xl md:text-2xl font-bold">{project.title}</h3>
+                      <p className="text-muted-foreground mb-4">{project.description}</p>
+                      
+                      <div className="flex flex-wrap gap-2 mb-4">
+                        {project.tags.map((tag) => (
+                          <div key={tag} variant="secondary" className="bg-white/10 rounded-lg py-1 px-2 text-xs md:text-sm">
+                            {tag}
+                          </div>
+                        ))}
+                      </div>
+
+                      <div className="flex gap-3">
+                        <a
+                          href={project.link}
+                          className="flex items-center gap-2 text-blue-500 hover:text-blue-400 transition-colors cursor-pointer"
+                        >
+                          <ExternalLink className="w-4 h-4" />
+                          <span>View Project</span>
+                        </a>
+                        <a
+                          href={project.github}
+                          className="flex items-center gap-2 text-purple-500 hover:text-purple-400 transition-colors"
+                        >
+                          <Github className="w-4 h-4" />
+                          <span>Code</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </motion.div>
+              ))}
+            </div>
+          </div>
+
+          <div className={`${activeTab === 'hobbies' ? 'block' : 'hidden'}`}>
+            <div className="grid md:grid-cols-2 gap-6">
+              {hobbies.map((hobby, index) => {
+                const Icon = hobby.icon;
+                return (
+                  <motion.div
+                    key={hobby.name}
+                    initial={{ opacity: 0, scale: 0.9 }}
+                    whileInView={{ opacity: 1, scale: 1 }}
+                    transition={{ delay: index * 0.1, duration: 0.6 }}
+                    viewport={{ once: true }}
+                  >
+                    <div className="p-6 bg-card/50 backdrop-blur border-border hover:border-blue-500/50 transition-all group">
+                      <div className="flex items-start gap-4">
+                        <div className={`p-4 bg-${hobby.color}-500/10 rounded-lg group-hover:scale-110 transition-transform`}>
+                          <Icon className={`w-8 h-8 text-${hobby.color}-500`} />
+                        </div>
+                        <div className="flex-1">
+                          <h3 className="mb-2">{hobby.name}</h3>
+                          <p className="text-muted-foreground">{hobby.description}</p>
+                        </div>
+                      </div>
+                    </div>
+                  </motion.div>
+                );
+              })}
+            </div>
+          </div>
+        </div>
+      </motion.div>
+    </section>
+  );
+}

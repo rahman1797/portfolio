@@ -10,10 +10,10 @@ export function Experience() {
       period: 'Aug 2022 - Present',
       current: true,
       responsibilities: [
-        'Develop and maintain web applications using React.js and ASP .NET Core',
-        'Collaborate with cross-functional teams to deliver high-quality products',
-        'Implement responsive designs and optimize application performance',
-        'Conduct code reviews and mentor junior developers',
+        'Develop and maintain more than 100+ landing pages',
+        'Create report generator to generate more than 1000+ reports per month',
+        'Improve the SEO of the website to page 1 in the search engine results page (SERP)',
+        'Maintain development tools to improve the development process',
         'Work with SQL databases to manage and optimize data operations'
       ]
     },
