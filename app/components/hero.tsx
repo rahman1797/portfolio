@@ -53,7 +53,8 @@ const Hero = () => {
   }, [currentText, isDeleting, loopNum]);
     
   return (
-    <div className='bg-gradient-to-br from-[#071126] to-[#1e072d] py-10 md:py-20 rounded-b-4xl'>
+    <div className='bg-gradient-to-br from-[#071126] to-[#1e072d] py-10 md:py-20 rounded-b-4xl h-[80vh]' id='home'>
+        <div className='h-20'></div>
         <div className='page-center'>
             <div className='flex flex-col items-center justify-center gap-3'>
                 <h1 className='text-4xl font-bold'>Hello, I'm <span className='bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent'>Maulana Rahman Nur</span></h1>

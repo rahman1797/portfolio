@@ -12,7 +12,7 @@ import { LuGraduationCap } from "react-icons/lu";
 const About = () => {
     
   return (
-    <div className='py-10 md:py-20'>
+    <div className='py-10 md:py-20' id='about'>
         <div className='page-center flex flex-col gap-10'>
           <h2 className='text-4xl font-bold text-center'>
             About Me
