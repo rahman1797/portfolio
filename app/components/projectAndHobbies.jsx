@@ -95,7 +95,7 @@ export function ProjectsAndHobbies() {
                   viewport={{ once: true }}
                 >
                   <div className="overflow-hidden bg-white/5 rounded-2xl backdrop-blur border-border hover:border-blue-500/50 transition-all h-full group">
-                    <div className="relative overflow-hidden h-[22rem]">
+                    <div className="relative overflow-hidden h-56 md:h-[22rem]">
                       <Image
                         src={project.image}
                         alt={project.title}
