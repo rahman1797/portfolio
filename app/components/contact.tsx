@@ -1,6 +1,7 @@
 'use client'
 import { motion } from 'motion/react';
 import { Mail, Phone, MapPin, Linkedin, Github, Twitter, Instagram } from 'lucide-react';
+import { useState } from 'react';
 
 export function Contact() {
   const contactInfo = [
@@ -33,6 +34,8 @@ export function Contact() {
     { icon: Instagram, href: 'https://www.instagram.com/m.rahmannur', label: 'Instagram', color: 'pink' }
   ];
 
+  const [message, setMessage] = useState('');
+
   return (
     <section id="contact" className="py-20 px-4 max-w-6xl mx-auto">
       <motion.div
@@ -57,7 +60,7 @@ export function Contact() {
             viewport={{ once: true }}
           >
             <h3 className="mb-6">Contact Information</h3>
-            
+
             <div className="space-y-4 mb-8">
               {contactInfo.map((info, index) => {
                 const Icon = info.icon;
@@ -118,54 +121,25 @@ export function Contact() {
             <div className="p-6 bg-white/5 rounded-2xl backdrop-blur border-border">
               <form className="space-y-4">
                 <div>
-                  <label htmlFor="name" className="block mb-2">
-                    Name
-                  </label>
-                  <input
-                    id="name"
-                    placeholder="Your name"
-                    className="bg-background/50"
-                  />
-                </div>
-
-                <div>
-                  <label htmlFor="email" className="block mb-2">
-                    Email
-                  </label>
-                  <input
-                    id="email"
-                    type="email"
-                    placeholder="your.email@example.com"
-                    className="bg-background/50"
-                  />
-                </div>
-
-                <div>
-                  <label htmlFor="subject" className="block mb-2">
-                    Subject
-                  </label>
-                  <input
-                    id="subject"
-                    placeholder="Project inquiry"
-                    className="bg-background/50"
-                  />
-                </div>
-
-                <div>
                   <label htmlFor="message" className="block mb-2">
                     Message
                   </label>
                   <textarea
                     id="message"
-                    placeholder="Tell me about your project..."
+                    placeholder="Tell me something..."
                     rows={5}
                     className="bg-background/50"
-                  ></textarea>
+                    value={message}
+                    onChange={(e) => setMessage(e.target.value)}
+                  />
                 </div>
 
                 <button
                   type="submit"
                   className="w-full bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 hover:opacity-90 text-white px-4 py-2 rounded-full font-bold cursor-pointer"
+                  onClick={() => {
+                    window.open('https://api.whatsapp.com/send?phone=6285218124422&text=' + message, '_blank');
+                  }}
                 >
                   Send Message
                 </button>

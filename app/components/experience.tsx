@@ -19,15 +19,22 @@ export function Experience() {
     },
     {
       company: 'Intalogi (Inti Talenta Teknologi)',
-      position: 'Web Developer',
+      position: 'Fullstack Web & ERP Developer',
       period: 'Apr 2020 - Aug 2022',
       current: false,
       responsibilities: [
-        'Built and maintained web applications using PHP and Laravel framework',
-        'Developed RESTful APIs for mobile and web applications',
-        'Implemented frontend features using HTML, CSS, and JavaScript',
-        'Managed MySQL databases and optimized query performance',
-        'Collaborated with design team to implement pixel-perfect UI/UX'
+        'Built and maintained web applications for company operation and HRIS',
+        'Maintain recruitment, administration, and report system',
+        'Customized Epicor ERP (Enterprise Resource Planning) system form, report, and function'
+      ]
+    },
+    {
+      company: 'Pusat Kajian Hadis',
+      position: 'Web Developer (internship)',
+      period: 'Aug 2018 - Oct 2018',
+      current: false,
+      responsibilities: [
+        'Create a website-based visitor registration application system',
       ]
     }
   ];

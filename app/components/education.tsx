@@ -9,19 +9,19 @@ export function Education() {
       name: 'LLM (Lembaga Legislatif Mahasiswa)',
       position: 'Staff Departemen',
       responsibilities: [
-        'Mengorganisir dan mengelola acara kemahasiswaan tingkat jurusan',
-        'Berkoordinasi dengan berbagai departemen BEM (Badan Eksekutif Mahasiswa) untuk menjalankan program kerja',
-        'Membantu BEM (Badan Eksekutif Mahasiswa) dalam mengelola kegiatan kemahasiswaan',
-        'Memeriksa administrasi dan dokumentasi kegiatan organisasi'
+        'Organize and manage department-level student events',
+        'Coordinate with various Student Executive Board (BEM) departments to implement work programs',
+        'Assist BEM (Student Executive Board) in managing student activities',
+        'Cross check the administration and documentation of organizational activities'
       ]
     },
     {
       name: 'DEFAULT',
       position: 'Anggota Aktif',
       responsibilities: [
-        'Berpartisipasi dalam kegiatan pengembangan teknologi dan inovasi di bidang IT (khusus nya pengembangan aplikasi berbasis web)',
-        'Mengadakan workshop dan seminar terkait IT dan programming',
-        'Berkontribusi dalam proyek-proyek penelitian dosen terkait pengembangan teknologi di kampus'
+        'Participating in technology development and innovation activities in the IT field (specifically web-based application development)',
+        'Conducting workshops and seminars related to IT and programming',
+        'Contributing to lecturer research projects related to technology development on campus'
       ]
     }
   ];

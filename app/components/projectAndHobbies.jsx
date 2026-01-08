@@ -6,6 +6,7 @@ import { ExternalLink, Github, Music, Camera, Gamepad2, Book } from 'lucide-reac
 import Image from 'next/image';
 
 import popsImage from '@/app/assets/img/pops.png';
+import lp_portfolioImage from '@/app/assets/img/lp_portfolio.png';
 
 export function ProjectsAndHobbies() {
 
@@ -21,10 +22,10 @@ export function ProjectsAndHobbies() {
       github: '#'
     },
     {
-      title: 'Analytics Dashboard',
-      description: 'Real-time analytics dashboard for monitoring business metrics and KPIs. Features interactive charts and data visualization using Recharts.',
-      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkYXNoYm9hcmQlMjBhbmFseXRpY3N8ZW58MXx8fHwxNzYxNDU2OTY5fDA&ixlib=rb-4.1.0&q=80&w=1080',
-      tags: ['React', 'ASP.NET Core', 'SQL', 'Recharts'],
+      title: 'Landing Page',
+      description: 'more than 100 landing pages as marketing media, lead generator platforms, and payment gateways.',
+      image: lp_portfolioImage,
+      tags: ['SEO', 'Tailwind CSS', 'React JS', 'Git',],
       link: '#',
       github: '#'
     },
@@ -48,12 +49,6 @@ export function ProjectsAndHobbies() {
 
   const hobbies = [
     {
-      icon: Music,
-      name: 'Music',
-      description: 'Playing guitar and exploring different music genres',
-      color: 'blue'
-    },
-    {
       icon: Camera,
       name: 'Photography',
       description: 'Capturing moments and exploring creative photography',
@@ -62,14 +57,8 @@ export function ProjectsAndHobbies() {
     {
       icon: Gamepad2,
       name: 'Gaming',
-      description: 'Enjoying strategic and adventure games',
+      description: 'Enjoy strategy and adventure games, solve puzzles in the game to improve your logic and strategy skills.',
       color: 'pink'
-    },
-    {
-      icon: Book,
-      name: 'Reading',
-      description: 'Reading tech articles and science fiction books',
-      color: 'green'
     }
   ];
 
@@ -104,7 +93,7 @@ export function ProjectsAndHobbies() {
                   viewport={{ once: true }}
                 >
                   <div className="overflow-hidden bg-white/5 rounded-2xl backdrop-blur border-border hover:border-blue-500/50 transition-all h-full group">
-                    <div className="relative overflow-hidden aspect-video">
+                    <div className="relative overflow-hidden h-[22rem]">
                       <Image
                         src={project.image}
                         alt={project.title}
@@ -114,11 +103,11 @@ export function ProjectsAndHobbies() {
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
                     </div>
-                    
+
                     <div className="p-6">
                       <h3 className="mb-2 text-xl md:text-2xl font-bold">{project.title}</h3>
                       <p className="text-muted-foreground mb-4">{project.description}</p>
-                      
+
                       <div className="flex flex-wrap gap-2 mb-4">
                         {project.tags.map((tag) => (
                           <div key={tag} variant="secondary" className="bg-white/10 rounded-lg py-1 px-2 text-xs md:text-sm">
@@ -168,7 +157,7 @@ export function ProjectsAndHobbies() {
                           <Icon className={`w-8 h-8 text-${hobby.color}-500`} />
                         </div>
                         <div className="flex-1">
-                          <h3 className="mb-2">{hobby.name}</h3>
+                          <h3 className="mb-2 font-bold">{hobby.name}</h3>
                           <p className="text-muted-foreground">{hobby.description}</p>
                         </div>
                       </div>

@@ -11,20 +11,20 @@ export function Skills() {
       color: ['text-blue-500', 'bg-blue-500/10'],
       title: 'SEO & Optimization',
       description: 'SEO & Optimization is the process of improving the visibility of a website in search engine results pages (SERPs).',
-      skills: ['SEO']
+      skills: ['SEO', 'Google Analytics', 'Google Search Console']
     },
     {
       icon: Code,
       color: ['text-purple-500', 'bg-purple-500/10'],
       title: 'Frontend Development',
-      description: 'Frontend Development is the process of building the user interface of a website.',
+      description: 'Frontend Development is the process of building the user interface of a website. Ensure the UI remains good on various devices',
       skills: ['HTML', 'CSS', 'JavaScript', 'ReactJs']
     },
     {
       icon: Database,
       color: ['text-pink-500', 'bg-pink-500/10'],
       title: 'Backend Development',
-      description: 'Backend Development is the process of building the server-side of a website.',
+      description: 'Backend Development is the process of building the server-side of a website / ERP system.',
       skills: ['C#', 'ASP .NET Core', 'PHP', 'Laravel']
     },
     {
@@ -32,7 +32,7 @@ export function Skills() {
       color: ['text-green-500', 'bg-green-500/10'],
       title: 'Database',
       description: 'Database is the process of storing and retrieving data.',
-      skills: ['SQL', 'MySQL']
+      skills: ['SQL', 'MySQL', 'SQL Server']
     },
     {
       icon: Layout,
@@ -44,7 +44,7 @@ export function Skills() {
   ];
 
   const allSkills = [
-    'SEO', 'HTML', 'CSS', 'JavaScript', 'ReactJs', 
+    'SEO', 'HTML', 'CSS', 'JavaScript', 'ReactJs',
     'C#', 'ASP .NET Core', 'PHP', 'Laravel', 'SQL'
   ];
 
@@ -83,7 +83,7 @@ export function Skills() {
                 <div className="flex flex-wrap gap-2">
                   {category.skills.map((skill) => (
                     <div key={skill} className="bg-white/10 rounded-lg py-1 px-2">
-                        {skill}
+                      {skill}
                     </div>
                   ))}
                 </div>
