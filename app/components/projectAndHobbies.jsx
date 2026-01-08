@@ -7,6 +7,8 @@ import Image from 'next/image';
 
 import popsImage from '@/app/assets/img/pops.png';
 import lp_portfolioImage from '@/app/assets/img/lp_portfolio.png';
+import epicorImage from '@/app/assets/img/epicor.png';
+import applymedionImage from '@/app/assets/img/applymedion.png';
 
 export function ProjectsAndHobbies() {
 
@@ -19,46 +21,46 @@ export function ProjectsAndHobbies() {
       image: popsImage,
       tags: ['PHP', 'Laravel', 'MySQL', 'Git'],
       link: 'https://popskluwut.id/',
-      github: '#'
+      github: ''
     },
     {
       title: 'Landing Page',
       description: 'more than 100 landing pages as marketing media, lead generator platforms, and payment gateways.',
       image: lp_portfolioImage,
       tags: ['SEO', 'Tailwind CSS', 'React JS', 'Git',],
-      link: '#',
-      github: '#'
+      link: 'https://www.ruangguru.com/',
+      github: ''
     },
     {
-      title: 'Mobile App Backend',
-      description: 'RESTful API backend for mobile application with authentication, user management, and real-time notifications. Deployed on cloud infrastructure.',
-      image: 'https://images.unsplash.com/photo-1618761714954-0b8cd0026356?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjBpbnRlcmZhY2V8ZW58MXx8fHwxNzYxNDU3NzU0fDA&ixlib=rb-4.1.0&q=80&w=1080',
-      tags: ['C#', 'ASP.NET Core', 'JWT', 'Azure'],
-      link: '#',
-      github: '#'
+      title: 'Enterprise Resource Planning (ERP) System',
+      description: 'Maintain end-to-end applications and B2B SaaS thats provides enterprise resource planning (ERP), customer relationship management (CRM), supply chain management (SCM), and human capital management (HCM) software to business customers in both software as a service (SaaS) and on-premises deployment models.',
+      image: epicorImage,
+      tags: ['C#', 'SQL Server', 'Crystal Report'],
+      link: '',
+      github: ''
     },
     {
-      title: 'Portfolio Website Builder',
-      description: 'Dynamic portfolio website builder with customizable templates and themes. Users can create and deploy their portfolio in minutes.',
-      image: 'https://images.unsplash.com/photo-1593720213681-e9a8778330a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3ZWIlMjBkZXZlbG9wbWVudCUyMGNvZGluZ3xlbnwxfHx8fDE3NjE0NDkxMzB8MA&ixlib=rb-4.1.0&q=80&w=1080',
-      tags: ['React', 'PHP', 'MySQL', 'Tailwind'],
-      link: '#',
-      github: '#'
+      title: 'Recruitment Information System',
+      description: 'Information system to assist the recruitment and selection process of prospective employees such as publication of job advertisements, psychological tests, to selection of applicant data',
+      image: applymedionImage,
+      tags: ['.NET core', 'SQL Server', 'C#'],
+      link: 'https://applyonline.medionindonesia.com/',
+      github: ''
     }
   ];
 
   const hobbies = [
     {
-      icon: Camera,
-      name: 'Photography',
-      description: 'Capturing moments and exploring creative photography',
-      color: 'purple'
-    },
-    {
       icon: Gamepad2,
       name: 'Gaming',
       description: 'Enjoy strategy and adventure games, solve puzzles in the game to improve your logic and strategy skills.',
       color: 'pink'
+    },
+    {
+      icon: Camera,
+      name: 'Photography',
+      description: 'Capturing moments and exploring creative photography',
+      color: 'purple'
     }
   ];
 
@@ -117,20 +119,25 @@ export function ProjectsAndHobbies() {
                       </div>
 
                       <div className="flex gap-3">
-                        <a
-                          href={project.link}
-                          className="flex items-center gap-2 text-blue-500 hover:text-blue-400 transition-colors cursor-pointer"
-                        >
-                          <ExternalLink className="w-4 h-4" />
-                          <span>View Project</span>
-                        </a>
-                        <a
-                          href={project.github}
-                          className="flex items-center gap-2 text-purple-500 hover:text-purple-400 transition-colors"
-                        >
-                          <Github className="w-4 h-4" />
-                          <span>Code</span>
-                        </a>
+                        {project.link ?
+                          <a
+                            href={project.link}
+                            className="flex items-center gap-2 text-blue-500 hover:text-blue-400 transition-colors cursor-pointer"
+                            target="_blank" rel="noopener noreferrer"
+                          >
+                            <ExternalLink className="w-4 h-4" />
+                            <span>View Project</span>
+                          </a> : ""
+                        }
+                        {project.github ?
+                          <a
+                            href={project.github}
+                            className="flex items-center gap-2 text-purple-500 hover:text-purple-400 transition-colors"
+                          >
+                            <Github className="w-4 h-4" />
+                            <span>Code</span>
+                          </a> : ""
+                        }
                       </div>
                     </div>
                   </div>

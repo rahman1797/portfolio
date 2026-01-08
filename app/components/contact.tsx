@@ -14,9 +14,9 @@ export function Contact() {
     },
     {
       icon: Phone,
-      label: 'Phone',
+      label: 'Phone (whatsapp)',
       value: '+62 852-1812-4422',
-      href: 'tel:+628521812442',
+      href: 'https://api.whatsapp.com/send?phone=6285218124422',
       color: 'purple'
     },
     {
