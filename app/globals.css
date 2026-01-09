@@ -5,6 +5,10 @@
   --foreground: #171717;
 }
 
+* {
+  scroll-behavior: smooth;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -31,7 +35,8 @@ body {
   width: 90%;
 }
 
-input, textarea {
+input,
+textarea {
   border: 1px solid #e0e0e060;
   padding: 10px;
   border-radius: 8px;

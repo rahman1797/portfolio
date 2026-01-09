@@ -48,7 +48,7 @@ export function Contact() {
           Get In <span className="bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">Touch</span>
         </h2>
         <p className="text-center text-muted-foreground mb-12">
-          Let's work together on your next project
+          Let's get to know more
         </p>
 
         <div className="grid md:grid-cols-2 gap-8">

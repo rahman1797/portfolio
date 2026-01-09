@@ -144,6 +144,8 @@ export function ProjectsAndHobbies() {
                 </motion.div>
               ))}
             </div>
+
+            <div className="bg-white/20 px-5 py-2 w-max mx-auto rounded-full text-center mt-4 text-muted-foreground">And many more....</div>
           </div>
 
           <div className={`${activeTab === 'hobbies' ? 'block' : 'hidden'}`}>

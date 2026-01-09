@@ -18,14 +18,14 @@ export function Skills() {
       color: ['text-purple-500', 'bg-purple-500/10'],
       title: 'Frontend Development',
       description: 'Frontend Development is the process of building the user interface of a website. Ensure the UI remains good on various devices',
-      skills: ['HTML', 'CSS', 'JavaScript', 'ReactJs']
+      skills: ['HTML', 'CSS', 'JavaScript', 'ReactJs', 'Tailwind CSS', 'Bootstrap']
     },
     {
       icon: Database,
       color: ['text-pink-500', 'bg-pink-500/10'],
       title: 'Backend Development',
       description: 'Backend Development is the process of building the server-side of a website / ERP system.',
-      skills: ['C#', 'ASP .NET Core', 'PHP', 'Laravel']
+      skills: ['C#', 'ASP .NET Core', 'PHP', 'Laravel', 'CodeIgniter']
     },
     {
       icon: Database,
