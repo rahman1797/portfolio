@@ -2,7 +2,7 @@
 
 import { motion } from 'motion/react';
 // import { Badge } from './ui/badge';
-import { Search, Code, Database, Layout, Smartphone } from 'lucide-react';
+import { Search, Code, Database, Layout, Braces } from 'lucide-react';
 
 export function Skills() {
   const skillCategories = [
@@ -21,7 +21,7 @@ export function Skills() {
       skills: ['HTML', 'CSS', 'JavaScript', 'ReactJs', 'Tailwind CSS', 'Bootstrap']
     },
     {
-      icon: Database,
+      icon: Braces,
       color: ['text-pink-500', 'bg-pink-500/10'],
       title: 'Backend Development',
       description: 'Building the server-side of a website / ERP system. Ensure all business processes run smoothly',
