@@ -10,35 +10,35 @@ export function Skills() {
       icon: Search,
       color: ['text-blue-500', 'bg-blue-500/10'],
       title: 'SEO & Optimization',
-      description: 'SEO & Optimization is the process of improving the visibility of a website in search engine results pages (SERPs).',
+      description: 'Improving the visibility of a website in search engine results pages (SERPs).',
       skills: ['SEO', 'Google Analytics', 'Google Search Console']
     },
     {
       icon: Code,
       color: ['text-purple-500', 'bg-purple-500/10'],
       title: 'Frontend Development',
-      description: 'Frontend Development is the process of building the user interface of a website. Ensure the UI remains good on various devices',
+      description: 'Building the user interface of a website. Ensure the UI remains good on various devices',
       skills: ['HTML', 'CSS', 'JavaScript', 'ReactJs', 'Tailwind CSS', 'Bootstrap']
     },
     {
       icon: Database,
       color: ['text-pink-500', 'bg-pink-500/10'],
       title: 'Backend Development',
-      description: 'Backend Development is the process of building the server-side of a website / ERP system.',
+      description: 'Building the server-side of a website / ERP system. Ensure all business processes run smoothly',
       skills: ['C#', 'ASP .NET Core', 'PHP', 'Laravel', 'CodeIgniter']
     },
     {
       icon: Database,
       color: ['text-green-500', 'bg-green-500/10'],
       title: 'Database',
-      description: 'Database is the process of storing and retrieving data.',
+      description: 'Storing and retrieving data.',
       skills: ['SQL', 'MySQL', 'SQL Server']
     },
     {
       icon: Layout,
       color: ['text-orange-500', 'bg-orange-500/10'],
       title: 'Design',
-      description: 'Design is the process of creating the user interface of a website.',
+      description: 'Creating the user interface of a website.',
       skills: ['Responsive Design']
     }
   ];

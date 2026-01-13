@@ -14,7 +14,8 @@ export function Experience() {
         'Create report generator to generate more than 1000+ reports per month',
         'Improve the SEO of the website to page 1 in the search engine results page (SERP)',
         'Maintain development tools to improve the development process',
-        'Work with SQL databases to manage and optimize data operations'
+        'Automate some business trackers to reduce time costs',
+        'Improve the performance of the website to improve user experience'
       ]
     },
     {
@@ -25,7 +26,8 @@ export function Experience() {
       responsibilities: [
         'Built and maintained web applications for company operation and HRIS',
         'Maintain recruitment, administration, and report system',
-        'Customized Epicor ERP (Enterprise Resource Planning) system form, report, and function'
+        'Customized Epicor ERP (Enterprise Resource Planning) system form, report, and function',
+        'Work with SQL databases to manage and optimize data operations'
       ]
     },
     {
